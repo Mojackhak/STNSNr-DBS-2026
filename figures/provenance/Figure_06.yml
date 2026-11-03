@@ -1,0 +1,153 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/videos/fog_SNr008_multi_exposure_manual_human_outline_blur_sigma18.png
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel a. Example freezing-of-gait episode shown as a multi-exposure
+    image.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/videos/fog_SNr008__burst_2_3_10_11.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel c. Burst example corresponding to the freezing-of-gait
+    episode shown in panel a.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/corr/pose_pairwise/fog_pose_pairwise_summary_param_by_freq_signed_logp_layered_heatmap
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/corr/pose_pairwise/fog_pose_pairwise_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel b. Pose-pairwise freezing-of-gait signed log-P heatmap
+    summarized by aperiodic power parameter and frequency features; for labels a versus b, positive values
+    indicate b > a.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/burst-rate-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Pose-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel a. High-beta burst-rate values by pose
+    and region during freezing of gait, shown for STN.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/burst-duration-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/Pose-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel b. High-beta burst-duration values
+    by pose and region during freezing of gait, shown for STN.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Pose-Region_tukey.csv
+  notes: 'Reference provenance: Figure_06.yaml panel d. High-beta burst-occupation values by pose and
+    region, shown for STN.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Delta/rlmer_model/Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/burst-rate-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Delta/rlmer_model/Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-rate-scalar/Delta/rlmer_model/Pose-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel c. Delta burst-rate values by pose
+    and region during freezing of gait, shown for STN.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Delta/rlmer_model/Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/burst-duration-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Delta/rlmer_model/Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-duration-scalar/Delta/rlmer_model/Pose-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel d. Delta burst-duration values by pose
+    and region during freezing of gait, shown for STN.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Delta/rlmer_model/Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Delta/rlmer_model/Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/burst/burst/burst-occupation-scalar/Delta/rlmer_model/Pose-Region_tukey.csv
+  notes: 'Reference provenance: Figure_06.yaml panel e. Delta burst-occupation values by pose and region,
+    shown for STN.'
+- panel_id: j
+  image_source: null
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel h. Schematic definition of phases used in freezing-of-gait
+    episode analysis; image and data sources were intentionally left blank.'
+- panel_id: k
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-transformed-raw/All/Region-SNr_norm.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-transformed-raw/All/Region-STN_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-transformed-raw/period-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel i; Supplementary_Figure_27.yaml panel i. Freezing-of-gait
+    episode periodic power time-frequency representation for SNr. Freezing-of-gait episode periodic power
+    time-frequency representation for STN. Current panel combines SNr and STN components from the two
+    reference panels.'
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/corr/phase_pairwise/fog_episode_phase_pairwise_summary_param_by_freq_signed_logp_layered_heatmap_with_delta
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/corr/phase_pairwise/fog_episode_phase_pairwise_signed_logp_values_with_delta.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel j. Phase-pairwise freezing-of-gait episode signed
+    log-P heatmap summarized by aperiodic power parameter and frequency features; for labels a versus
+    b, positive values indicate b > a.'
+- panel_id: m
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-trace/Theta/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-trace/period-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel l. Theta periodic power mean trace by region during
+    freezing-of-gait episodes.'
+- panel_id: n
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Theta/rlmer_model/Phase-Region-SNr_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/period-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Theta/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Theta/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Theta/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Figure_06.yaml panel k. Theta periodic power values by phase and region,
+    shown for SNr.'
+- panel_id: o
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-trace/Delta/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-trace/period-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel j. Delta periodic power mean trace
+    by region during freezing-of-gait episodes.'
+- panel_id: p
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Delta/rlmer_model/Phase-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/period-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Delta/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/tfr/period/period-mean-scalar/Delta/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel k. Delta periodic power values by phase
+    and region, shown for STN.'

@@ -1,0 +1,114 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-spectral/All/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-spectral/period-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel d. Pain periodic power mean spectra
+    by phase and region. Panel lineage: 20260909/Supplementary Fig.20.yml panel b.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-spectral/All/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-spectral/raw-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel a. Pain total power mean spectra by
+    phase and region. Panel lineage: 20260909/Supplementary Fig.20.yml panel a.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-transformed-raw/All/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-transformed-raw/raw-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Pain total-power time-frequency representation for SNr and STN. Panel lineage: 20260909/Figure_07.yml
+    panel h.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-spectral/All/Phase-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-spectral/coh-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added SNr-STN coherence spectra for BL, ONS, SUS, OFS and PST. The source legend has been moved
+    inside the plotting area; the spectral curves and Fisher-z-of-square-root-coherence axis match.
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-trace/Exponent/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-trace/params-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_07.yaml panel i. Pain exponent mean trace by region. Panel lineage:
+    20260909/Supplementary Fig.20.yml panel g.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Exponent/rlmer_model/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/params-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Exponent/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Exponent/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Exponent/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel j. Pain aperiodic exponent values by
+    phase and region. Panel lineage: 20260909/Supplementary Fig.20.yml panel h.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-trace/Offset/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-trace/params-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_07.yaml panel j. Pain offset mean trace by region. Panel lineage:
+    20260909/Supplementary Fig.20.yml panel i.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Offset/rlmer_model/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/params-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Offset/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Offset/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/params/params/params-mean-scalar/Offset/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel k. Pain aperiodic offset values by
+    phase and region. Panel lineage: 20260909/Supplementary Fig.20.yml panel j.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-trace/Alpha/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-trace/period-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel g. Pain alpha periodic power mean trace
+    by region. Panel lineage: 20260909/Supplementary Fig.21.yml panel a.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Alpha/rlmer_model/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/period-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Alpha/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Alpha/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Alpha/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel h. Pain alpha periodic power values
+    by phase and region. Panel lineage: 20260909/Supplementary Fig.21.yml panel b.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-trace/Beta_low/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-trace/coh-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added pain low-beta coherence mean trace for SNr-STN, shown as the BL-normalized change in Fisher
+    z of square-root coherence. The source legend is moved above the curve. No inferential timepoint statistics
+    are assigned to this trace.
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Current AI visual match: Gamma burst occupation by pain phase for SNr and STN. The inherited
+    Delta-band source was replaced with Gamma. Select Band=Gamma in the contact-level data and within-Region
+    Phase contrasts in the Phase-Region EMM and Tukey tables. Omnibus remains null: the available model_omnibus.csv
+    has Phase df1=3, whereas the displayed raw comparison and its EMMs contain BL, ONS, SUS, OFS and PST.
+    Correspondence to that five-phase raw model is unconfirmed. Panel lineage: 20260909/Supplementary
+    Fig.21.yml panel i.'

@@ -1,0 +1,94 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_snr_local_dual_signed_logp_layered_heatmap
+    copy.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_stn_local_dual_signed_logp_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_params_dual_signed_logp_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_20.yaml panel a. SNr local, STN local and aperiodic
+    power parameter dual-task pairwise pose-comparison signed log-P heatmaps for walking-task effects;
+    for labels a versus b, positive values indicate b > a. The reference YAML records only the SNr image
+    source. The STN and aperiodic component PDFs were located in the same directory and visually matched
+    against the current AI: heatmap cells, significance markers, contrast order, and axis orientation.
+    The non-transposed parameter PDF matches the current panel; source-PDF label overlap is not part of
+    the match criterion. Image-source list order: SNr, STN, aperiodic parameters.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-spectral/All/Task-Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-spectral/period-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_19.yaml panel g. Periodic power spectra across walking-task
+    conditions, shown for STN by task, pose and region.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Theta/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Theta/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Theta/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied image source, visually matched to the current AI panel. Theta burst-rate-scalar
+    in STN, comparing Single versus Dual within Sit, Stand, Walk and Turn. Use Region=STN rows from the
+    same-directory Task-Pose-Region EMM and Tukey tables; p_tukey matches the displayed significance markers.
+    Omnibus remains null: model_omnibus.csv has no Task term and its correspondence to this task comparison
+    is unconfirmed.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied image source, visually matched to the current AI panel. Theta burst-occupation-scalar
+    in STN, comparing Single versus Dual within Sit, Stand, Walk and Turn. Use Region=STN rows from the
+    same-directory Task-Pose-Region EMM and Tukey tables; p_tukey matches the displayed significance markers.
+    Omnibus remains null: model_omnibus.csv has no Task term and its correspondence to this task comparison
+    is unconfirmed.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied image source, visually matched to the current AI panel. Alpha burst-rate-scalar
+    in STN, comparing Single versus Dual within Sit, Stand, Walk and Turn. Use Region=STN rows from the
+    same-directory Task-Pose-Region EMM and Tukey tables; p_tukey matches the displayed significance markers.
+    Omnibus remains null: model_omnibus.csv has no Task term and its correspondence to this task comparison
+    is unconfirmed.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Task-Pose-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_19.yaml panel h. Alpha burst occupation by walking
+    task, pose and region. STN component of the reference alpha burst-occupation plot.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Gamma/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Gamma/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Gamma/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied image source, visually matched to the current AI panel. Gamma burst-rate-scalar
+    in STN, comparing Single versus Dual within Sit, Stand, Walk and Turn. Use Region=STN rows from the
+    same-directory Task-Pose-Region EMM and Tukey tables; p_tukey matches the displayed significance markers.
+    Omnibus remains null: model_omnibus.csv has no Task term and its correspondence to this task comparison
+    is unconfirmed.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_19.yaml panel i. Gamma burst occupation by walking
+    task, pose and region, shown for STN contacts.'

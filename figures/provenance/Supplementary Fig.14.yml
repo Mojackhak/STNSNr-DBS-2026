@@ -1,0 +1,109 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Theta/SNr/Walk/Theta_SNr_Walk_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Theta/SNr/Walk/Theta_SNr_Walk_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Theta/SNr/Walk.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: b
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/SNr/Walk/Alpha_SNr_Walk_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/SNr/Walk/Alpha_SNr_Walk_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/SNr/Walk.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: c
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-mean-scalar/Beta_low/STN/Walk/Beta_low_STN_Walk_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-mean-scalar/Beta_low/STN/Walk/Beta_low_STN_Walk_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-mean-scalar/Beta_low/STN/Walk.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: d
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/STN/Walk/Gamma_STN_Walk_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/STN/Walk/Gamma_STN_Walk_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/STN/Walk.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: e
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Alpha/SNr/Turn/Alpha_SNr_Turn_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Alpha/SNr/Turn/Alpha_SNr_Turn_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Alpha/SNr/Turn.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: f
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Beta_high/SNr/Turn/Beta_high_SNr_Turn_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Beta_high/SNr/Turn/Beta_high_SNr_Turn_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Beta_high/SNr/Turn.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: g
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Alpha/STN/Turn/Alpha_STN_Turn_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Alpha/STN/Turn/Alpha_STN_Turn_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Alpha/STN/Turn.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: h
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Beta_high/STN/Turn/Beta_high_STN_Turn_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Beta_high/STN/Turn/Beta_high_STN_Turn_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/raw/raw-mean-scalar/Beta_high/STN/Turn.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'
+- panel_id: i
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-scalar/Beta_high/STN/Turn/Beta_high_STN_Turn_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-scalar/Beta_high/STN/Turn/Beta_high_STN_Turn_surface2.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-specified source directory: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-scalar/Beta_high/STN/Turn.
+    Current panel combines surface1 and surface2 PDFs, recorded in that order. Rendered surfaces were
+    visually checked against the current AI panel. Data and statistics sources have not been assigned.'

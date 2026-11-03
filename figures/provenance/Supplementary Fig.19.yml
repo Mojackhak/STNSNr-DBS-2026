@@ -1,0 +1,97 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/psi/psi/psi-mean-scalar/Delta/rlmer_model/Pose-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/psi/psi/psi-mean-scalar/psi-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/psi/psi/psi-mean-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel g. Delta PSI values by pose for SNr→STN
+    during freezing of gait; no exact Pose-Region EMM or Tukey export was found.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/gc/delta_net_gc/delta_net_gc-mean-spectral/All/Pose-Region-SNr-to-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/gc/delta_net_gc/delta_net_gc-mean-spectral/delta_net_gc-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel e. TRGC spectra by pose for SNr→STN
+    during freezing of gait.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/rlmer_model/Pose-Region-SNr-to-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/gc/delta_net_gc/delta_net_gc-mean-scalar/delta_net_gc-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_06.yaml panel f. Gamma-band TRGC values by pose for SNr→STN; no
+    exact Pose-Region post hoc export was found.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Delta/rlmer_model/Phase-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Delta/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Delta/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Current AI visual match: Delta burst occupation during freezing-of-gait episodes, shown for
+    STN. The inherited d/e source assignments were swapped to match the current panel letters. Select
+    Region=STN in the Phase-Region EMM and Tukey tables and Band=Delta in the contact-level source. Omnibus
+    remains null: the available model_omnibus.csv has Phase df1=1, whereas the displayed raw comparison
+    and its EMMs contain BL, Pre and ONS. Correspondence to that three-phase raw model is unconfirmed.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Current AI visual match: Theta burst occupation during freezing-of-gait episodes, shown for
+    STN. The inherited d/e source assignments were swapped to match the current panel letters. Select
+    Region=STN in the Phase-Region EMM and Tukey tables and Band=Theta in the contact-level source. Omnibus
+    remains null: the available model_omnibus.csv has Phase df1=1, whereas the displayed raw comparison
+    and its EMMs contain BL, Pre and ONS. Correspondence to that three-phase raw model is unconfirmed.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/Phase-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel u. Low-beta wPLI values by phase for
+    SNr-STN; no exact Phase-Region EMM or Tukey export was found.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Phase-Region-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel l. High-beta burst-occupation values
+    by phase and region during freezing-of-gait episodes, shown for STN.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/coh/coh-transformed-raw/All/Region-SNr-STN_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/coh/coh-transformed-raw/coh-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel p. Freezing-of-gait episode coherence
+    for SNr-STN.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Phase-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/coh/coh-mean-scalar/coh-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel r. Low-beta coherence values by phase
+    for SNr-STN; no exact Phase-Region EMM or Tukey export was found.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/psi/psi/psi-mean-scalar/Gamma/rlmer_model/Phase-Region-SNr-to-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/psi/psi/psi-mean-scalar/psi-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/fog_episode/psi/psi/psi-mean-scalar/Gamma/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_27.yaml panel v. Gamma PSI values by phase for SNr→STN;
+    no exact Phase-Region EMM or Tukey export was found.'

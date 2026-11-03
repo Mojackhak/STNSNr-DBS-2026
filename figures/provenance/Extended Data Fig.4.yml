@@ -1,0 +1,110 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/diagram/pain_evoked.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel a. Pain-evoked waveform-parameter schematic;
+    no sample-level data source is associated with this diagram panel.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/corr/phase_ons_vs_ofs/pain_evoked_phase_ons_vs_ofs_signed_logp_summary_region_top_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/corr/phase_ons_vs_ofs/pain_evoked_phase_ons_vs_ofs_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel h. Pain-evoked ONS-versus-OFS signed
+    log-P summary heatmap for top region effects; positive values indicate ONS > OFS.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/corr/logforce_slope/pain_evoked_logforce_slope_summary_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/corr/logforce_slope/pain_evoked_logforce_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel b. Pain-evoked log-force slope summary
+    heatmap.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/Delta/rlmer_model/LogForce-Phase-Region-ONS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/period-mean-mean_slope_rise_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/Delta/rlmer_model/LogForce-Phase-Region_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/Delta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/Delta/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/Delta/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-mean_slope_rise/Delta/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel c. Pain-evoked delta periodic power
+    mean rise-slope association with log force, phase and region, shown for ONS.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/Theta/rlmer_model/LogForce-Phase-Region-SNr-ONS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/raw-mean-peak_time_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/Theta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/Theta/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/raw/raw-mean-peak_time/Theta/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel d. Pain-evoked theta total power peak-time
+    association with log force, phase and region, shown for SNr in ONS.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/Gamma/rlmer_model/LogForce-Phase-Region-STN-ONS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/period-mean-auc_rel_left_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/Gamma/rlmer_model/LogForce-Phase-Region_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/Gamma/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/Gamma/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/Gamma/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/tfr/period/period-mean-auc_rel_left/Gamma/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel e. Pain-evoked gamma periodic power
+    relative-left AUC association with log force, phase and region, shown for STN in ONS.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/Delta/rlmer_model/LogForce-Phase-Region-SNr-STN-ONS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/wpli-mean-onset_time_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/Delta/rlmer_model/LogForce-Phase_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/Delta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/Delta/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/Delta/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/wpli/wpli-mean-onset_time/Delta/rlmer_model/LogForce-Phase_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel g. Pain-evoked delta wPLI onset-time
+    association with log force and phase for SNr-STN, shown for ONS; no exact LogForce-Phase-Region CSV
+    export was found.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/Delta/rlmer_model/LogForce-Phase-Region-SNr-STN-OFS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/coh-mean-offset_time_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/Delta/rlmer_model/LogForce-Phase_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/Delta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/Delta/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/Delta/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain_evoked/conn/coh/coh-mean-offset_time/Delta/rlmer_model/LogForce-Phase_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_33.yaml panel f. Pain-evoked delta coherence offset-time
+    association with log force and phase for SNr-STN, shown for OFS; no exact LogForce-Phase-Region CSV
+    export was found.'

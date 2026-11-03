@@ -1,0 +1,125 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/corr/duration_standardized_slope/turn_feature_frequency_summary_duration_standardized_slope_heatmap
+    copy.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/corr/duration_standardized_slope/turn_feature_frequency_summary_duration_standardized_slope_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/corr/duration_standardized_slope/turn_feature_params_duration_standardized_slope_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/corr/duration_standardized_slope/turn_feature_duration_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel e. Turn-duration standardized-slope
+    heatmap panel assembled from frequency-summary and aperiodic power parameter components; LFP values
+    are expressed as Turn - Stand.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Delta/rlmer_model/z_Feature-Region-Gradient_Duration_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/burst-duration-scalar_contact_normalized.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Delta/rlmer_model/model_omnibus_Duration.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel f. Delta burst-duration association
+    with turn duration and feature-region-gradient terms; no exact same-prefix curve, omnibus or slope
+    export was found.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Gamma/rlmer_model/z_Feature_between-Region_Duration_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/burst-duration-scalar_contact_normalized.csv
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Gamma/rlmer_model/z_Feature_between-Region_Duration_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Gamma/rlmer_model/model_omnibus_Duration.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: z_Feature_between-Region_Duration
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Gamma/rlmer_model/z_Feature_between-Region_Duration_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Gamma/rlmer_model/z_Feature_between-Region_Duration_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/turn_feature/burst/burst/burst-duration-scalar/Gamma/rlmer_model/z_Feature_between-Region_Duration_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel g. Gamma burst-duration association
+    with turn duration and between-region feature terms.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/diagram/turn.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel a. Turning paradigm schematic; no sample-level
+    data source is associated with this diagram panel.'
+- panel_id: e
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn/corr/lat_contra_vs_ipsi/turn_lat_snr_local_contra_vs_ipsi_signed_logp_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn/corr/lat_contra_vs_ipsi/turn_lat_stn_local_contra_vs_ipsi_signed_logp_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/turn/corr/lat_contra_vs_ipsi/turn_lat_params_contra_vs_ipsi_signed_logp_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/corr/lat_contra_vs_ipsi/turn_lat_contra_vs_ipsi_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel b. Lateralized contra-versus-ipsi signed
+    log-P heatmap panel assembled from SNr local, STN local, aperiodic power parameter and connectivity
+    components; positive values indicate Ipsi > Contra. Local SNr/STN and aperiodic components only; the
+    old connectivity component is excluded.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/corr/lat_contra_vs_ipsi/turn_lat_connectivity_contra_vs_ipsi_signed_logp_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/corr/lat_contra_vs_ipsi/turn_lat_contra_vs_ipsi_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel b. Lateralized contra-versus-ipsi signed
+    log-P heatmap panel assembled from SNr local, STN local, aperiodic power parameter and connectivity
+    components; positive values indicate Ipsi > Contra. Connectivity component only; old local and aperiodic
+    components are excluded.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-spectral/All/Lat-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: User-supplied image source, visually checked against the current AI panel. Coherence spectra
+    by lateralization for SNr-STN during turning. No statistics outputs were found in the image directory
+    (coh-mean-spectral/All); statistics sources remain null. Data source has not been assigned.
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Alpha/rlmer_model/Lat-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Alpha/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Alpha/rlmer_model/Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Alpha/rlmer_model/Lat_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Alpha coherence by
+    lateralization for SNr-STN during turning. Statistics are from the same image directory: model omnibus
+    Lat effect, Lat estimated marginal means, and the Ipsi - Contra Tukey contrast. These are pooled Lat
+    outputs, not the Hemi-specific outputs. Data source has not been assigned.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Lat-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Lat_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Beta_low coherence
+    by lateralization for SNr-STN during turning. Statistics are from the same image directory: model
+    omnibus Lat effect, Lat estimated marginal means, and the Ipsi - Contra Tukey contrast. These are
+    pooled Lat outputs, not the Hemi-specific outputs. Data source has not been assigned.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/wpli/wpli-mean-spectral/All/Lat-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/wpli/wpli-mean-spectral/wpli-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel c. wPLI spectra by lateralization for
+    SNr-STN during turning.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/Lat-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/turn/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_24.yaml panel d. Low-beta wPLI by lateralization
+    for SNr-STN during turning; no exact Lat-Region EMM or Tukey export was found.'

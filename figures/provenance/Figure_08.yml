@@ -1,0 +1,141 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: rest
+  panel_label: Rest
+  svg_group_id: rest-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_02.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_02.yml
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Supplementary Fig.5.pdf
+  notes: Schematic resting spectra show an STN beta peak, a user-approved simplified SNr alpha/beta double-peak
+    illustration, and a beta coupling peak. The SNr firing example summarizes the positive association
+    between neuronal firing irregularity (LvR) and FoG severity; it is distinct from LFP power and burst
+    measures. The spectral illustration does not assert that other SNr frequency components are absent.
+- panel_id: levodopa
+  panel_label: Levodopa
+  svg_group_id: levodopa-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_03.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_03.yml
+  notes: Medication ON relative to OFF. Integrated STN periodic power shows low-beta reduction with delta/theta
+    and gamma increases; the gamma burst-rate increase is shown separately. SNr periodic power shows low-beta
+    reduction and delta/theta/alpha increases, with beta/gamma bursting reduced. Low-beta internuclear
+    synchrony decreases. Curves are schematic and do not reproduce individual recordings or EMM values.
+- panel_id: working_hypothesis
+  panel_label: Working hypothesis
+  svg_group_id: working-hypothesis-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_02.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_03.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_04.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_05.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_06.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_07.pdf
+  notes: Anatomical STN-above-SNr arrangement with an eight-contact lead. The beta reservoir and band-specific
+    faucets are a working metaphor for task-dependent spectral reconfiguration, not conserved energy transfer.
+    Delta/theta is paired with medication and a von Frey probe; gamma is paired with walking and turning.
+    The mechanical example refers to onset relative to baseline. SNr is labelled State-associated dynamics
+    and coupling State-dependent coordination. The diagram does not establish output gating, a dynamic
+    brake, or a directed functional hierarchy.
+- panel_id: clinical_associations
+  panel_label: Clinical associations
+  svg_group_id: clinical-associations-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_01.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_01.yml
+  notes: The configuration transition is illustrated from four-contact STN-DBS to eight-contact STN+SNr-DBS,
+    followed by associated FoG decrease, Pain decrease, Gait improvement and QoL improvement. Contact
+    counts describe the hardware illustration, not the number of simultaneously active contacts. Pain
+    uses a von Frey probe; QoL uses a person with a smile symbol. The arrows summarize observed clinical
+    associations and do not establish causal efficacy. No new numerical effect estimates are plotted.
+- panel_id: motor_cognitive_demand
+  panel_label: Motor–cognitive demand
+  svg_group_id: motor-cognitive-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_04.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_04.yml
+  notes: 'Upper visual order is Sit versus Turn; effects remain Turn relative to Sit: STN high-beta periodic
+    power decreases and gamma increases, SNr high-beta/alpha bursting decreases, and gamma wPLI increases.
+    Lower visual order is Single versus Dual turning; effects remain Dual relative to Single: STN low-beta
+    power decreases and gamma increases, SNr alpha bursting increases, and gamma synchrony decreases.
+    Motor and cognitive demand arrows identify the comparisons, not a fitted monotonic law.'
+- panel_id: gait_phase
+  panel_label: Gait phase
+  svg_group_id: gait-phase-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_05.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_05.yml
+  notes: Schematic gait-cycle timeline and total low-beta/theta power profiles for STN and SNr, with low-beta
+    wPLI below. The five anchors are contralateral HS at 0%, ipsilateral TO at 18%, ipsilateral HS at
+    50%, contralateral TO at 68%, and the next contralateral HS at 100%. Local power and coupling are
+    expressed relative to their cycle means; shaded intervals summarize the approved source findings.
+    Heel-strike icons show heel contact with the forefoot raised. No periodic-only power trace is added
+    to this panel.
+- panel_id: fog_transition
+  panel_label: FoG transition
+  svg_group_id: fog-transition-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_06.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_06.yml
+  notes: Schematic baseline, pre-FoG and onset comparison. STN high-beta burst occupation decreases at
+    onset; delta periodic power rises at onset. SNr theta periodic power increases before FoG relative
+    to baseline and decreases at onset relative to pre-FoG. Low-beta wPLI decreases before FoG relative
+    to baseline. Shading represents epoch-level comparisons, not newly inferred timepoint significance.
+- panel_id: mechanical_pain_input
+  panel_label: Mechanical pain input
+  svg_group_id: mechanical-input-panel
+  image_source: ${MANUAL_ARTWORK_ROOT}/Figure8.svg
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  evidence_sources:
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_07.pdf
+  - ${MYLFP_PROJECT_ROOT}/manuscript/presubmit_v0.1/figure0930/Figure_07.yml
+  notes: Von Frey stimulation at the index fingertip with BL, ONS, SUS, OFS and PST epochs. STN and SNr
+    low-beta periodic power show troughs at ONS and OFS with intervening recovery; delta total power and
+    STN-SNr delta coherence show corresponding peaks. Shading summarizes epoch-average comparisons against
+    BL. These are illustrative phase profiles, not measurements of transferred spectral energy or subjective
+    pain decoding.

@@ -1,0 +1,137 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Alpha/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/period-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Alpha/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Alpha/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Alpha/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: Alpha periodic power across Sit, Stand, Walk and Turn under single-task conditions, shown for
+    SNr and STN. Source supplied by the user and visually verified against the current AI panel. Statistics
+    sources refer to the corresponding Alpha model.
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/burst-rate-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'Current AI visual match: arcsinh Alpha burst rate across walking-task poses for SNr and STN
+    under Task=Single. The inherited Delta-band assignment was replaced by the Alpha source. Select Band=Alpha
+    and Task=Single in the data source; use the Task=Single rows and within-Region Pose contrasts in the
+    EMM and Tukey tables. Omnibus remains null: the available model_omnibus.csv has Pose df1=2 and no
+    Task term, whereas the displayed raw comparison and its EMMs cover four poses (Sit, Stand, Walk, Turn)
+    and the source EMM table is stratified by Task. Correspondence to that raw model is unconfirmed.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Alpha/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/burst-duration-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Alpha/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Alpha/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'Current AI visual match: ln Alpha burst duration across walking-task poses for SNr and STN under
+    Task=Single. The inherited Delta-band assignment was replaced by the Alpha source. Select Band=Alpha
+    and Task=Single in the data source; use the Task=Single rows and within-Region Pose contrasts in the
+    EMM and Tukey tables. Omnibus remains null: the available model_omnibus.csv has Pose df1=2 and no
+    Task term, whereas the displayed raw comparison and its EMMs cover four poses (Sit, Stand, Walk, Turn)
+    and the source EMM table is stratified by Task. Correspondence to that raw model is unconfirmed.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'Current AI visual match: Alpha burst occupation across walking-task poses for SNr and STN under
+    Task=Single. The inherited Delta-band assignment was replaced by the Alpha source. Select Band=Alpha
+    and Task=Single in the data source; use the Task=Single rows and within-Region Pose contrasts in the
+    EMM and Tukey tables. Omnibus remains null: the available model_omnibus.csv has Pose df1=2 and no
+    Task term, whereas the displayed raw comparison and its EMMs cover four poses (Sit, Stand, Walk, Turn)
+    and the source EMM table is stratified by Task. Correspondence to that raw model is unconfirmed.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Beta_high burst-rate-scalar
+    by pose and region under the single-task condition. Select Task=Single in the EMM and Tukey tables,
+    separately for SNr and STN. Omnibus remains null: the same-directory model_omnibus.csv has no Task
+    term and Pose df1=2, so its correspondence to this four-pose comparison is unconfirmed. Data source
+    has not been assigned.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/Pose-Region-Task_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/burst-duration-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_high/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_20.yaml panel c. Pose comparisons of high-beta burst
+    duration, stratified by region and task during walking-task conditions. Single-task row of the reference
+    plot; dual-task rows are outside this current panel.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_19.yaml panel c. High-beta burst occupation during
+    walking-task conditions under single-task conditions.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Beta_low burst-occupation-scalar
+    by pose and region under the single-task condition. Select Task=Single in the EMM and Tukey tables,
+    separately for SNr and STN. Omnibus remains null: the same-directory model_omnibus.csv has no Task
+    term and Pose df1=2, so its correspondence to this four-pose comparison is unconfirmed. Data source
+    has not been assigned.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Beta_low burst-rate-scalar
+    by pose and region under the single-task condition. Select Task=Single in the EMM and Tukey tables,
+    separately for SNr and STN. Omnibus remains null: the same-directory model_omnibus.csv has no Task
+    term and Pose df1=2, so its correspondence to this four-pose comparison is unconfirmed. Data source
+    has not been assigned.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/Pose-Region-Task-Single_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Beta_low burst-duration-scalar
+    by pose and region under the single-task condition. Select Task=Single in the EMM and Tukey tables,
+    separately for SNr and STN. Omnibus remains null: the same-directory model_omnibus.csv has no Task
+    term and Pose df1=2, so its correspondence to this four-pose comparison is unconfirmed. Data source
+    has not been assigned.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-spectral/All/Pose-Task-Region-SNr-STN-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-spectral/wpli-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Spectral component of the former panel l, now a separate panel. SNr-STN wPLI spectra across
+    Sit, Stand, Walk and Turn under single-task conditions. Reference provenance: Supplementary_Figure_21.yaml
+    panel b. No gamma scalar statistics are assigned to this spectral panel.'
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-scalar/Gamma/rlmer_model/Pose-Task-Region-SNr-STN-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/wpli/wpli-mean-scalar/Gamma/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Scalar component of the former panel l, now a separate panel. Gamma-band SNr-STN wPLI comparison
+    across Sit, Stand, Walk and Turn under single-task conditions. Reference provenance: Supplementary_Figure_21.yaml
+    panel c. Inherited gamma-model statistics are retained; exact EMM and Tukey paths remain unassigned.'

@@ -1,0 +1,107 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_high/rlmer_model/Med-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/period-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_high/rlmer_model/Med-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_high/rlmer_model/Med-Region_tukey.csv
+  notes: 'Reference provenance: Figure_03.yml panel d. High-beta periodic power by medication state and
+    region.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Med-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Med-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Med-Region_tukey.csv
+  notes: User-supplied image source, visually checked against the current AI panel. Low-beta burst rate
+    by medication state and region. Statistics come from the same raw-model directory. Use Med Off - On
+    contrasts separately for SNr and STN. Hemi-stratified and normalized-model outputs are not used. Data
+    source has not been assigned.
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Med-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Med-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Med-Region_tukey.csv
+  notes: User-supplied image source, visually checked against the current AI panel. Low-beta burst occupation
+    by medication state and region. Statistics come from the same raw-model directory. Use Med Off - On
+    contrasts separately for SNr and STN. Hemi-stratified and normalized-model outputs are not used. Data
+    source has not been assigned.
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/Med-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/Med-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/med/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/Med-Region_tukey.csv
+  notes: User-supplied image source, visually checked against the current AI panel. Low-beta burst duration
+    by medication state and region. Statistics come from the same raw-model directory. Use Med Off - On
+    contrasts separately for SNr and STN. Hemi-stratified and normalized-model outputs are not used. Data
+    source has not been assigned.
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/coh/coh-mean-spectral/All/Med-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/coh/coh-mean-spectral/coh-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_17.yaml panel a. Medication-state coherence spectra
+    for SNr-STN.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Med-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/coh/coh-mean-scalar/coh-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_17.yaml panel b. Low-beta coherence by medication
+    state for SNr-STN; no exact Med-Region post hoc export was found.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/ciplv/ciplv-mean-spectral/All/Med-Region-SNr-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: User-supplied image source, visually checked against the current AI panel. ciPLV spectra by medication
+    state for SNr-STN. No statistics outputs were found in the supplied spectral All directory; statistics
+    remain null. Data source has not been assigned.
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/ciplv/ciplv-mean-scalar/Beta_low/rlmer_model/Med-Region-SNr-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/ciplv/ciplv-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/ciplv/ciplv-mean-scalar/Beta_low/rlmer_model/Med_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/ciplv/ciplv-mean-scalar/Beta_low/rlmer_model/Med_tukey.csv
+  notes: User-supplied image source, visually checked against the current AI panel. Low-beta ciPLV by
+    medication state for SNr-STN. Statistics come from the same raw-model directory. Use the pooled Med
+    Off - On contrast for SNr-STN. Hemi-stratified and normalized-model outputs are not used. Data source
+    has not been assigned.
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_stn_local_scale_combined_tremor_delta_percent_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_stn_local_scale_combined_tremor_delta_percent_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Current AI visual match: combined-tremor clinical correlation heatmap for STN local Med-on-minus-Med-off
+    effects. Clinical improvement is relative to Med-off. The single Tremor row uses 100 * (combined OFF
+    tremor - combined ON tremor) / combined OFF tremor, where combined tremor is the sum of Rest tremor
+    and Action tremor scores before calculating percentage improvement. Correlation results are stored
+    in the listed combined-tremor workbook.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_connectivity_scale_combined_tremor_delta_percent_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_connectivity_scale_combined_tremor_delta_percent_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Current AI visual match: combined-tremor clinical correlation heatmap for SNr-STN connectivity
+    Med-on-minus-Med-off effects. Clinical improvement is relative to Med-off. The single Tremor row uses
+    100 * (combined OFF tremor - combined ON tremor) / combined OFF tremor, where combined tremor is the
+    sum of Rest tremor and Action tremor scores before calculating percentage improvement. Correlation
+    results are stored in the listed combined-tremor workbook. In figure0930 the overlapping duplicate
+    is removed; the single displayed heatmap retains the same source.'

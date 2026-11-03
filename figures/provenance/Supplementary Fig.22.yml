@@ -1,0 +1,14 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: unlettered_composite
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/mni_standardized_slope/pain_snr_mni_xyz_standardized_slope_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/mni_standardized_slope/pain_stn_mni_xyz_standardized_slope_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/mni_standardized_slope/pain_mni_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: One unlettered composite assembled from SNr and STN MNI-coordinate standardized-slope heatmaps.
+    Image-source order is SNr, STN. Retain ONS, SUS and OFS; omit PST and any other components in the
+    shared data table. The lower overlapping brain-surface artwork visible in 20260909 is absent from
+    figure0930; the two retained heatmap sources are unchanged.

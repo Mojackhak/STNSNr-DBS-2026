@@ -1,0 +1,138 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Walk facet of the source PDF, Region=STN; the full PDF also
+    contains other poses. Beta_low burst-rate-scalar. Statistics: select Region=STN and Pose=Walk in the
+    same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The selected
+    p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Walk facet of the source PDF, Region=STN; the full PDF also
+    contains other poses. Beta_low burst-occupation-scalar. Statistics: select Region=STN and Pose=Walk
+    in the same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The
+    selected p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Beta_high/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Turn facet of the source PDF, Region=STN; the full PDF also
+    contains other poses. Beta_high burst-rate-scalar. Statistics: select Region=STN and Pose=Turn in
+    the same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The selected
+    p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Task-Pose-Region-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Beta_high/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Turn facet of the source PDF, Region=STN; the full PDF also
+    contains other poses. Beta_high burst-occupation-scalar. Statistics: select Region=STN and Pose=Turn
+    in the same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The
+    selected p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Task-Pose-Region-SNr_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-occupation-scalar/Alpha/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Turn facet of the source PDF, Region=SNr; the full PDF also
+    contains other poses. Alpha burst-occupation-scalar. Statistics: select Region=SNr and Pose=Turn in
+    the same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The selected
+    p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Task-Pose-Region-SNr_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Turn facet of the source PDF, Region=SNr; the full PDF also
+    contains other poses. Alpha burst-rate-scalar. Statistics: select Region=SNr and Pose=Turn in the
+    same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The selected
+    p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/params/params/params-mean-scalar/Exponent/rlmer_model/Task-Pose-Region-SNr_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/params/params/params-mean-scalar/Exponent/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/params/params/params-mean-scalar/Exponent/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Turn facet of the source PDF, Region=SNr; the full PDF also
+    contains other poses. Exponent params-mean-scalar. Statistics: select Region=SNr and Pose=Turn in
+    the same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The selected
+    p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/params/params/params-mean-scalar/Offset/rlmer_model/Task-Pose-Region-SNr_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/params/params/params-mean-scalar/Offset/rlmer_model/Task-Pose-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/params/params/params-mean-scalar/Offset/rlmer_model/Task-Pose-Region_tukey.csv
+  notes: 'User-supplied source: use only the Turn facet of the source PDF, Region=SNr; the full PDF also
+    contains other poses. Offset params-mean-scalar. Statistics: select Region=SNr and Pose=Turn in the
+    same-directory Task-Pose-Region EMM and Tukey tables for the Single - Dual comparison. The selected
+    p_tukey matches the displayed significance marker. Omnibus remains null because model_omnibus.csv
+    contains no Task term and its correspondence is unconfirmed.'
+- panel_id: i
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_connectivity_single_signed_logp_layered_heatmap
+    copy.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_connectivity_dual_signed_logp_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_21.yaml panel a. Connectivity single-task and dual-task
+    pairwise pose-comparison signed log-P heatmaps for gait effects; for labels a versus b, positive values
+    indicate b > a.'
+- panel_id: j
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/ciplv/ciplv-mean-spectral/All/Pose-Task-Region-SNr-STN-Dual_raw.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/ciplv/ciplv-mean-scalar/Delta/rlmer_model/Pose-Task-Region-SNr-STN-Dual_raw.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/ciplv/ciplv-mean-spectral/ciplv-mean-spectral_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/ciplv/ciplv-mean-scalar/ciplv-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/conn/ciplv/ciplv-mean-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_21.yaml panel d; Supplementary_Figure_21.yaml panel
+    e. ciPLV spectra for SNr-STN during dual-task walking conditions. Delta ciPLV for SNr-STN during dual-task
+    walking conditions; no exact Pose-Task-Region EMM or Tukey export was found.'
+- panel_id: k
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-spectral/All/Pose-Task-Region-SNr-to-STN-Dual_raw.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/rlmer_model/Pose-Task-Region-SNr-to-STN-Dual_raw.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-spectral/delta_net_gc-mean-spectral_region_raw.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-scalar/delta_net_gc-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/gc/delta_net_gc/delta_net_gc-mean-scalar/Gamma/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_21.yaml panel f; Supplementary_Figure_21.yaml panel
+    g. TRGC spectra for SNr→STN during dual-task walking conditions. Gamma-band TRGC summary for SNr→STN
+    during dual-task walking conditions; no exact Pose-Task-Region EMM or Tukey export was found.'

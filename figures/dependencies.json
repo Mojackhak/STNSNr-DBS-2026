@@ -1,0 +1,1987 @@
+{
+  "pipeline/anat/lead.py": [
+    "plugin/default/lead_default.py",
+    "src/anat/mapper.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/anat/lead_contact.py": [
+    "plugin/default/lead_default.py",
+    "src/anat/mapper.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/anat/lead_coords.m": [
+    "src/anat/leaddbs/coords/dist2space_coords_batch.m"
+  ],
+  "pipeline/anat/lead_dist.m": [
+    "src/anat/leaddbs/coords/make_subject_coords_config_from_lead_library.m"
+  ],
+  "pipeline/anat/lead_flip.m": [
+    "src/anat/leaddbs/coords/flip_coords_lr_nonlinear.m"
+  ],
+  "pipeline/anat/lead_table.m": [
+    "src/anat/leaddbs/coords/dist2space_coords_table.m"
+  ],
+  "pipeline/lfp/tensors.py": [
+    "plugin/default/tensors_sit_default.py",
+    "src/io/pkl_io.py",
+    "src/lfp/burst/grid.py",
+    "src/lfp/common/timefreq.py",
+    "src/lfp/connectivity/grid.py",
+    "src/lfp/connectivity/pairs.py",
+    "src/lfp/connectivity/utils.py",
+    "src/lfp/interp/freq.py",
+    "src/lfp/pipelines/masking.py",
+    "src/lfp/psi/grid.py",
+    "src/lfp/smooth/smooth.py",
+    "src/lfp/tfr/decompose.py",
+    "src/lfp/tfr/grid.py",
+    "src/qc/tensor_qc.py",
+    "src/utils/fileops.py",
+    "src/utils/freqs.py",
+    "src/utils/paths.py",
+    "src/utils/transforms.py"
+  ],
+  "pipeline/lfp/warp.py": [
+    "plugin/default/warp_default.py",
+    "src/io/pkl_io.py",
+    "src/lfp/pipelines/masking.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/mer/coords.py": [
+    "plugin/default/coords_default.py",
+    "plugin/default/lead_default.py",
+    "src/anat/mapper.py",
+    "src/io/pkl_io.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/preproc/outliers.py",
+    "src/stats/preproc/transform.py",
+    "src/tabular/selection.py",
+    "src/tabular/tensor_slices.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/mer/lead_table.m": [
+    "src/anat/leaddbs/coords/dist2space_coords_table.m"
+  ],
+  "pipeline/mer/wc_sorting.py": [
+    "plugin/default/mer_default.py",
+    "src/io/converter.py",
+    "src/mer/__init__.py",
+    "src/mer/spectral.py",
+    "src/mer/spikeinterface_adapter.py",
+    "src/mer/waveclus_pipeline.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/posetrack/cycle_feature.py": [
+    "plugin/default/cycle_feature_default.py",
+    "src/io/pkl_io.py",
+    "src/lfp/warp/event_anchored_linear.py",
+    "src/posetrack/gait_feature.py",
+    "src/posetrack/pose_resample.py",
+    "src/posetrack/pose_sync.py",
+    "src/posetrack/track_io.py",
+    "src/stats/preproc/outliers.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/posetrack/gait_track.py": [
+    "plugin/default/gait_track_default.py",
+    "src/posetrack/anipose_api.py",
+    "src/posetrack/merge_pose.py",
+    "src/posetrack/mmpose_tracker.py",
+    "src/posetrack/pose_interp.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/posetrack/merge_cycle.py": [
+    "plugin/default/merge_cycle_default.py",
+    "plugin/default/tabular_default.py",
+    "src/io/pkl_io.py",
+    "src/posetrack/gait_burst_time.py",
+    "src/tabular/selection.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/posetrack/merge_turn.py": [
+    "plugin/default/merge_turn_default.py",
+    "plugin/default/tabular_default.py",
+    "src/io/pkl_io.py",
+    "src/tabular/selection.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/posetrack/turn_feature.py": [
+    "src/io/pkl_io.py",
+    "src/lfp/warp/event_anchored_linear.py",
+    "src/posetrack/gait_feature.py",
+    "src/posetrack/pose_resample.py",
+    "src/posetrack/pose_sync.py",
+    "src/posetrack/track_io.py",
+    "src/stats/preproc/outliers.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/preproc/preproc.py": [
+    "plugin/default/preproc_default.py",
+    "src/io/converter.py",
+    "src/io/montage.py",
+    "src/preproc/channels.py",
+    "src/preproc/ecg_remover.py",
+    "src/preproc/filter.py",
+    "src/preproc/tag.py",
+    "src/qc/scalogram.py",
+    "src/tabular/df_schema.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/preproc/stitch.py": [
+    "src/preproc/stitch.py",
+    "src/utils/fileops.py"
+  ],
+  "pipeline/stats/stats.py": [
+    "plugin/default/stats_default.py",
+    "plugin/default/stats_fog_episode_default.py",
+    "plugin/default/stats_gait_cycle_default.py",
+    "plugin/default/stats_posetrack_default.py",
+    "plugin/default/stats_posetrack_percent_default.py",
+    "plugin/default/stats_turn_default.py",
+    "plugin/default/stats_turn_percent_default.py",
+    "src/io/pkl_io.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/preproc/outliers.py",
+    "src/tabular/df_schema.py",
+    "src/tabular/missing.py",
+    "src/tabular/reshape.py",
+    "src/tabular/selection.py",
+    "src/utils/fileops.py",
+    "src/utils/parallel.py",
+    "src/utils/paths.py",
+    "src/utils/runlog.py"
+  ],
+  "pipeline/tabular/concat.py": [
+    "plugin/default/concat_turn_default.py",
+    "src/io/pkl_io.py",
+    "src/tabular/tensor_slices.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "pipeline/tabular/derive.py": [
+    "plugin/default/derive_posetrack_default.py",
+    "plugin/default/tabular_default.py",
+    "src/io/pkl_io.py",
+    "src/stats/preproc/transform.py",
+    "src/tabular/grid.py",
+    "src/tabular/missing.py",
+    "src/utils/config.py",
+    "src/utils/fileops.py",
+    "src/utils/parallel.py",
+    "src/utils/paths.py",
+    "src/utils/runlog.py"
+  ],
+  "pipeline/tabular/derive/gait_cycle/export_region_long.py": [
+    "plugin/default/stats_gait_cycle_default.py",
+    "src/stats/gait_cycle.py"
+  ],
+  "pipeline/tabular/derive/pain/evoked_peaks.py": [
+    "plugin/default/derive/pain/evoked_peaks_default.py",
+    "src/derive/pain/evoked_peaks.py",
+    "src/io/pkl_io.py",
+    "src/tabular/selection.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "plugin/default/__init__.py": [
+    "plugin/__init__.py"
+  ],
+  "plugin/default/concat_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tabular_default.py",
+    "src/tabular/reshape.py",
+    "src/tabular/selection.py",
+    "src/tabular/text.py"
+  ],
+  "plugin/default/concat_posetrack_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tabular_default.py",
+    "src/tabular/reshape.py",
+    "src/tabular/selection.py",
+    "src/tabular/text.py"
+  ],
+  "plugin/default/concat_turn_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tabular_default.py",
+    "src/tabular/selection.py",
+    "src/tabular/text.py"
+  ],
+  "plugin/default/coords_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/stats_default.py",
+    "plugin/default/tabular_default.py"
+  ],
+  "plugin/default/cycle_feature_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/derive/__init__.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/derive/pain/__init__.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive/__init__.py"
+  ],
+  "plugin/default/derive/pain/evoked_peaks_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive/__init__.py",
+    "plugin/default/derive/pain/__init__.py",
+    "plugin/default/tabular_default.py",
+    "src/derive/pain/evoked_peaks.py"
+  ],
+  "plugin/default/derive_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tensors_default.py",
+    "src/tabular/grid.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/derive_posetrack_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tensors_default.py",
+    "src/tabular/grid.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/derive_turn_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tensors_default.py",
+    "src/tabular/grid.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/gait_track_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/lead_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tabular_default.py"
+  ],
+  "plugin/default/mer_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/merge_cycle_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/merge_turn_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/preproc_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/stats_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "src/stats/preproc/normalize.py",
+    "src/tabular/text.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/stats_fog_episode_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "src/stats/preproc/normalize.py",
+    "src/tabular/text.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/stats_gait_cycle_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py"
+  ],
+  "plugin/default/stats_posetrack_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "src/stats/preproc/normalize.py",
+    "src/tabular/text.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/stats_posetrack_percent_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "src/stats/preproc/normalize.py",
+    "src/tabular/text.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/stats_turn_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "src/stats/preproc/normalize.py",
+    "src/tabular/text.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/stats_turn_percent_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "src/stats/preproc/normalize.py",
+    "src/tabular/text.py",
+    "src/utils/config.py"
+  ],
+  "plugin/default/tabular_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "src/tabular/text.py"
+  ],
+  "plugin/default/tensors_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/preproc_default.py",
+    "src/lfp/connectivity/pairs.py"
+  ],
+  "plugin/default/tensors_gait_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/preproc_default.py",
+    "src/lfp/connectivity/pairs.py"
+  ],
+  "plugin/default/tensors_sit_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/preproc_default.py",
+    "src/lfp/connectivity/pairs.py"
+  ],
+  "plugin/default/viz_defaults.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "src/viz/visualdf.py"
+  ],
+  "plugin/default/warp_default.py": [
+    "plugin/__init__.py",
+    "plugin/default/__init__.py",
+    "plugin/default/tensors_default.py",
+    "src/lfp/warp/concat.py",
+    "src/lfp/warp/event_anchored_linear.py",
+    "src/lfp/warp/pad_concat.py",
+    "src/lfp/warp/stack.py"
+  ],
+  "recipes/stnsnr/stats/clinic/active_contact_tables.py": [
+    "recipes/stnsnr/stats/clinic/programming_contacts.py"
+  ],
+  "recipes/stnsnr/stats/clinic/pca_dist.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/clinic/pca_scale_dist.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/clinic/scale_coords_standardized_slope.py": [
+    "recipes/stnsnr/stats/clinic/subject_effect_tables.py",
+    "recipes/stnsnr/stats/mer/spike_scale_correlation.py"
+  ],
+  "recipes/stnsnr/stats/clinic/scale_effect.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/clinic/table_effect.py": [
+    "plugin/default/viz_defaults.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "recipes/stnsnr/stats/clinic/table_pca.py": [
+    "plugin/default/viz_defaults.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/stats.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "recipes/stnsnr/stats/clinic/table_scale_effect.py": [
+    "plugin/default/viz_defaults.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/preproc/normalize.py",
+    "src/stats/stats.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "recipes/stnsnr/stats/clinic/table_scale_pca.py": [
+    "plugin/default/viz_defaults.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/preproc/normalize.py",
+    "src/stats/stats.py",
+    "src/tabular/text.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "recipes/stnsnr/stats/fog/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/fog/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/fog_episode/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/fog_episode/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/gait_event/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/gait_event/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/gait_feature/double_feature.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/gait_feature/single_feature.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/gait_phase/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/gait_phase/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/med/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/med/med_scale_correlation.py": [
+    "recipes/stnsnr/stats/clinic/subject_effect_tables.py",
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/med/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/mer/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/mer/single_xyz.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/mer/spike_scale_correlation.py": [
+    "recipes/stnsnr/stats/clinic/subject_effect_tables.py",
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/pain/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/pain/double_xyz.r": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/pain/pain_lfp_kpps_3m_correlation.py": [
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/pain/pain_logforce_standardized_slope.py": [
+    "plugin/default/viz_defaults.py"
+  ],
+  "recipes/stnsnr/stats/pain/pain_mni_standardized_slope.py": [
+    "plugin/default/viz_defaults.py"
+  ],
+  "recipes/stnsnr/stats/pain/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/pain/single_xyz.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/pain_evoked/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/pain_evoked/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/rest/burst_eg.py": [
+    "src/lfp/burst/grid.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "recipes/stnsnr/stats/rest/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/rest/double_xyz.r": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/rest/rest_efficacy_correlation.py": [
+    "recipes/stnsnr/stats/rest/rest_scale_correlation.py",
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/rest/rest_mni_standardized_slope.py": [
+    "plugin/default/viz_defaults.py"
+  ],
+  "recipes/stnsnr/stats/rest/rest_scale_correlation.py": [
+    "recipes/stnsnr/stats/clinic/subject_effect_tables.py",
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/rest/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/rest/single_xyz.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/turn/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/turn/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/turn_feature/double_feature.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/turn_feature/single_feature.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/walk/double_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/walk/double_xyz.r": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/walk/single_scalar.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/walk/single_xyz.R": [
+    "plugin/default/tabular_default.R",
+    "src/stats/emm/emm.R",
+    "src/tabular/df_schema.R"
+  ],
+  "recipes/stnsnr/stats/walk/walk_lfp_fogq_3m_correlation.py": [
+    "recipes/stnsnr/stats/walk/walk_lfp_gait_pca_3m_correlation.py",
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/walk/walk_lfp_gait_pca_3m_correlation.py": [
+    "src/stats/correlation/corr_matrix.py"
+  ],
+  "recipes/stnsnr/stats/walk/walk_mni_standardized_slope.py": [
+    "plugin/default/viz_defaults.py"
+  ],
+  "recipes/stnsnr/viz/clinic/pca.py": [
+    "plugin/default/viz_defaults.py",
+    "src/stats/pca/pca.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/pca.py",
+    "src/viz/radar.py"
+  ],
+  "recipes/stnsnr/viz/clinic/pca_dist.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/clinic/pca_scale_dist.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/clinic/scale_coords_standardized_slope_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/clinic/scale_coords_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/clinic/scale_effect.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/clinic/scale_pca.py": [
+    "plugin/default/viz_defaults.py",
+    "src/stats/pca/pca.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/pca.py",
+    "src/viz/radar.py"
+  ],
+  "recipes/stnsnr/viz/clinic/show_dots.m": [
+    "src/viz/lead/add_spheres.m"
+  ],
+  "recipes/stnsnr/viz/fog/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog/double_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog/fog_pose_pairwise_signed_logp_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/fog/fog_pose_pairwise_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/double_raw.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/fog_episode_phase_pairwise_signed_logp_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/fog_episode/fog_episode_phase_pairwise_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/fog_multi_exposure.py": [
+    "plugin/default/derive_default.py",
+    "plugin/default/tabular_default.py",
+    "plugin/default/tensors_default.py",
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/lfp/burst/grid.py",
+    "src/lfp/common/timefreq.py",
+    "src/lfp/connectivity/grid.py",
+    "src/lfp/connectivity/pairs.py",
+    "src/lfp/connectivity/utils.py",
+    "src/lfp/interp/freq.py",
+    "src/lfp/psi/grid.py",
+    "src/lfp/smooth/smooth.py",
+    "src/lfp/tfr/decompose.py",
+    "src/lfp/tfr/grid.py",
+    "src/preproc/channels.py",
+    "src/qc/tensor_qc.py",
+    "src/stats/preproc/normalize.py",
+    "src/stats/preproc/transform.py",
+    "src/tabular/tensor_slices.py",
+    "src/utils/fileops.py",
+    "src/utils/freqs.py",
+    "src/utils/paths.py",
+    "src/utils/transforms.py",
+    "src/viz/multi_exposure.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/single_raw.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/fog_episode/single_trace.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_cycle/plot_basic.py": [
+    "plugin/default/stats_gait_cycle_default.py",
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_event/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_event/double_trace.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_event/gait_event_phase_to_vs_hs_signed_logp_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/gait_event/gait_event_phase_to_vs_hs_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_event/single_raw.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_event/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_feature/combined_feature_fit.py": [
+    "plugin/default/viz_defaults.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_feature/gait_feature_gradient_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/gait_feature/gait_feature_gradient_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_feature/single_feature.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/viz/gait_feature/combined_feature_fit.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_phase/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_phase/double_trace.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_phase/gait_phase_phase_swing_vs_stance_signed_logp_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/gait_phase/gait_phase_phase_swing_vs_stance_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/gait_phase/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/med/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/med/double_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/med/med_scale_correlation.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/med/med_scale_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/med/medon_vs_medoff_signed_logp_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/med/medon_vs_medoff_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/med/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/med/single_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/mer/single_volume.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/viz/mer/bd_2_label_map.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/mer/single_xyz.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/viz/mer/bd_2_label_map.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/mer/spike_scale_correlation.py": [
+    "recipes/stnsnr/stats/mer/spike_scale_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/mer/spike_topomap.m": [
+    "recipes/stnsnr/viz/volume_cover.m",
+    "src/viz/lead/add_spheres.m",
+    "src/viz/surface/render/ea_export_figure_transparent.m",
+    "src/viz/surface/render/ea_nifti2patch.m",
+    "src/viz/surface/render/ea_plot_patch_leaddbs.m"
+  ],
+  "recipes/stnsnr/viz/mer/spike_topomap.py": [
+    "plugin/default/viz_defaults.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py"
+  ],
+  "recipes/stnsnr/viz/mer/surface_mer.m": [
+    "src/viz/surface/batch/visual_section_surface.m",
+    "src/viz/surface/batch_helper/default_plot_patch_config.m"
+  ],
+  "recipes/stnsnr/viz/pain/double_raw.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/double_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/double_trace.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/double_volume.py": [
+    "plugin/default/viz_defaults.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/pain_lat_ipsi_vs_contra_signed_logp_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain/pain_lat_ipsi_vs_contra_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/pain_lfp_kpps_3m_correlation_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain/pain_lfp_kpps_3m_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/pain_logforce_standardized_slope_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain/pain_logforce_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/pain_mni_standardized_slope_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain/pain_mni_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/pain_phase_pairwise_signed_logp_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain/pain_phase_pairwise_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/single_raw.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/single_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/single_trace.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/single_volume.py": [
+    "plugin/default/viz_defaults.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain/surface_pain.m": [
+    "src/viz/surface/batch/visual_section_surface.m",
+    "src/viz/surface/batch_helper/default_plot_patch_config.m",
+    "src/viz/surface/batch_helper/region_views.m"
+  ],
+  "recipes/stnsnr/viz/pain_evoked/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain_evoked/pain_evoked_logforce_slope_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain_evoked/pain_evoked_logforce_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain_evoked/pain_evoked_phase_ons_vs_ofs_signed_logp_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/pain_evoked/pain_evoked_phase_ons_vs_ofs_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/pain_evoked/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/burst_summary_scalar.py": [
+    "plugin/default/viz_defaults.py"
+  ],
+  "recipes/stnsnr/viz/rest/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/double_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/psi_summary_scalar.py": [
+    "plugin/default/viz_defaults.py"
+  ],
+  "recipes/stnsnr/viz/rest/rest_efficacy_correlation.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/rest/rest_efficacy_correlation.py",
+    "recipes/stnsnr/stats/rest/rest_scale_correlation.py",
+    "recipes/stnsnr/viz/rest/rest_scale_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/rest_lah_vs_mah_signed_logp_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/rest/rest_scale_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/rest_mni_standardized_slope_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/rest/rest_mni_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/rest_scale_correlation.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/rest/rest_scale_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/rest/single_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/turn/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/turn/double_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/turn/turn_lat_contra_vs_ipsi_signed_logp_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/turn/turn_lat_contra_vs_ipsi_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/turn_feature/combined_feature_fit.py": [
+    "plugin/default/viz_defaults.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/turn_feature/single_feature.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/viz/turn_feature/combined_feature_fit.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/turn_feature/turn_feature_duration_gradient_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/turn_feature/turn_feature_duration_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/volume_cover.m": [
+    "src/viz/lead/add_spheres.m",
+    "src/viz/surface/render/ea_capture_view_struct.m",
+    "src/viz/surface/render/ea_export_figure_transparent.m",
+    "src/viz/surface/render/ea_nifti2patch.m",
+    "src/viz/surface/render/ea_plot_patch_leaddbs.m"
+  ],
+  "recipes/stnsnr/viz/volume_cover.py": [
+    "plugin/default/viz_defaults.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/tabular/reshape.py",
+    "src/tabular/selection.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "recipes/stnsnr/viz/walk/double_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/double_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/double_volume.py": [
+    "plugin/default/viz_defaults.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/single_scalar.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/single_spectral.py": [
+    "plugin/default/viz_defaults.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/single_volume.py": [
+    "plugin/default/viz_defaults.py",
+    "src/anat/voxelize.py",
+    "src/io/pkl_io.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/surface_walk.m": [
+    "src/viz/surface/batch/visual_section_surface.m",
+    "src/viz/surface/batch_helper/default_plot_patch_config.m",
+    "src/viz/surface/batch_helper/region_views.m"
+  ],
+  "recipes/stnsnr/viz/walk/walk_lfp_fogq_3m_correlation_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/walk/walk_lfp_fogq_3m_correlation.py",
+    "recipes/stnsnr/stats/walk/walk_lfp_gait_pca_3m_correlation.py",
+    "recipes/stnsnr/viz/walk/walk_lfp_gait_pca_3m_correlation_heatmap.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/walk_lfp_gait_pca_3m_correlation_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/walk/walk_lfp_gait_pca_3m_correlation.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/walk_mni_standardized_slope_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/walk/walk_mni_standardized_slope.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/walk_pose_task_pairwise_signed_logp_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/walk/walk_pose_task_pairwise_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "recipes/stnsnr/viz/walk/walk_task_dual_vs_single_signed_logp_layered_heatmap.py": [
+    "plugin/default/viz_defaults.py",
+    "recipes/stnsnr/stats/walk/walk_task_dual_vs_single_signed_logp.py",
+    "src/viz/visualdf.py"
+  ],
+  "src/anat/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/anat/leaddbs/coords/dist2space_coords.m": [
+    "src/anat/leaddbs/coords/helper/require_functions.m"
+  ],
+  "src/anat/leaddbs/coords/dist2space_coords_batch.m": [
+    "src/anat/leaddbs/coords/dist2space_coords.m",
+    "src/anat/leaddbs/coords/helper/init_batch_results_table.m",
+    "src/anat/leaddbs/coords/helper/list_subject_folders.m",
+    "src/anat/leaddbs/coords/helper/read_json_file.m",
+    "src/anat/leaddbs/coords/helper/resolve_batch_save_path.m"
+  ],
+  "src/anat/leaddbs/coords/dist2space_coords_table.m": [
+    "src/anat/leaddbs/coords/dist2space_coords.m",
+    "src/anat/leaddbs/coords/helper/table_find_var.m"
+  ],
+  "src/anat/leaddbs/coords/flip_coords_lr_nonlinear.m": [
+    "src/anat/leaddbs/coords/helper/require_functions.m",
+    "src/anat/leaddbs/coords/helper/table_find_var.m"
+  ],
+  "src/anat/leaddbs/coords/make_subject_coords_config_from_lead_library.m": [
+    "src/anat/leaddbs/coords/helper/list_subject_folders.m",
+    "src/anat/leaddbs/coords/helper/read_json_file.m",
+    "src/anat/leaddbs/coords/helper/require_functions.m"
+  ],
+  "src/anat/mapper.py": [
+    "src/__init__.py",
+    "src/anat/__init__.py"
+  ],
+  "src/anat/voxelize.py": [
+    "src/__init__.py",
+    "src/anat/__init__.py"
+  ],
+  "src/derive/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/derive/pain/__init__.py": [
+    "src/__init__.py",
+    "src/derive/__init__.py"
+  ],
+  "src/derive/pain/evoked_peaks.py": [
+    "src/__init__.py",
+    "src/derive/__init__.py",
+    "src/derive/pain/__init__.py"
+  ],
+  "src/io/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/io/converter.py": [
+    "src/__init__.py",
+    "src/io/__init__.py",
+    "src/io/sync.py"
+  ],
+  "src/io/montage.py": [
+    "src/__init__.py",
+    "src/io/__init__.py"
+  ],
+  "src/io/pkl_io.py": [
+    "src/__init__.py",
+    "src/io/__init__.py"
+  ],
+  "src/io/sync.py": [
+    "src/__init__.py",
+    "src/io/__init__.py"
+  ],
+  "src/lfp/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/burst/grid.py",
+    "src/lfp/connectivity/grid.py",
+    "src/lfp/connectivity/utils.py",
+    "src/lfp/psi/grid.py",
+    "src/lfp/tfr/decompose.py",
+    "src/lfp/tfr/grid.py"
+  ],
+  "src/lfp/burst/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py"
+  ],
+  "src/lfp/burst/grid.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/burst/__init__.py"
+  ],
+  "src/lfp/common/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/timefreq.py"
+  ],
+  "src/lfp/common/timefreq.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/__init__.py"
+  ],
+  "src/lfp/connectivity/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/connectivity/grid.py"
+  ],
+  "src/lfp/connectivity/grid.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/timefreq.py",
+    "src/lfp/connectivity/__init__.py",
+    "src/lfp/connectivity/selection.py"
+  ],
+  "src/lfp/connectivity/pairs.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/connectivity/__init__.py"
+  ],
+  "src/lfp/connectivity/selection.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/connectivity/__init__.py",
+    "src/lfp/connectivity/pairs.py"
+  ],
+  "src/lfp/connectivity/utils.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/connectivity/__init__.py"
+  ],
+  "src/lfp/interp/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/interp/freq.py"
+  ],
+  "src/lfp/interp/freq.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/interp/__init__.py",
+    "src/utils/transforms.py"
+  ],
+  "src/lfp/mask/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/annotations.py"
+  ],
+  "src/lfp/mask/annotations.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/__init__.py",
+    "src/lfp/mask/mask.py"
+  ],
+  "src/lfp/mask/mask.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/__init__.py"
+  ],
+  "src/lfp/pipelines/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py"
+  ],
+  "src/lfp/pipelines/masking.py": [
+    "src/__init__.py",
+    "src/io/pkl_io.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/__init__.py",
+    "src/lfp/mask/annotations.py",
+    "src/lfp/mask/mask.py",
+    "src/lfp/pipelines/__init__.py",
+    "src/lfp/pipelines/warping.py",
+    "src/qc/tensor_qc.py",
+    "src/utils/__init__.py",
+    "src/utils/fileops.py",
+    "src/utils/transforms.py"
+  ],
+  "src/lfp/pipelines/warping.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/__init__.py",
+    "src/lfp/pipelines/__init__.py",
+    "src/lfp/warp/metadata.py"
+  ],
+  "src/lfp/psi/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/psi/grid.py"
+  ],
+  "src/lfp/psi/grid.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/timefreq.py",
+    "src/lfp/connectivity/selection.py",
+    "src/lfp/psi/__init__.py"
+  ],
+  "src/lfp/smooth/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/smooth/smooth.py"
+  ],
+  "src/lfp/smooth/smooth.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/smooth/__init__.py",
+    "src/utils/transforms.py"
+  ],
+  "src/lfp/tests/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py"
+  ],
+  "src/lfp/tests/conftest.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tests/__init__.py"
+  ],
+  "src/lfp/tests/synthetic_raw.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tests/__init__.py"
+  ],
+  "src/lfp/tests/test_burst_grid.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/burst/grid.py",
+    "src/lfp/tests/__init__.py"
+  ],
+  "src/lfp/tests/test_mask_annotations.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/annotations.py",
+    "src/lfp/tests/__init__.py"
+  ],
+  "src/lfp/tests/test_pipeline_warp_synthetic.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/pipelines/masking.py",
+    "src/lfp/pipelines/warping.py",
+    "src/lfp/tests/__init__.py",
+    "src/lfp/tests/synthetic_raw.py",
+    "src/lfp/tfr/grid.py",
+    "src/lfp/warp/concat.py",
+    "src/lfp/warp/event_anchored_linear.py",
+    "src/lfp/warp/pad_concat.py"
+  ],
+  "src/lfp/tests/test_psi_grid.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/psi/grid.py",
+    "src/lfp/tests/__init__.py"
+  ],
+  "src/lfp/tests/test_synthetic_connectivity_metrics.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/connectivity/grid.py",
+    "src/lfp/psi/grid.py",
+    "src/lfp/tests/__init__.py",
+    "src/lfp/tests/synthetic_raw.py",
+    "src/lfp/tfr/grid.py"
+  ],
+  "src/lfp/tests/test_synthetic_raw_factory.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tests/__init__.py",
+    "src/lfp/tests/synthetic_raw.py"
+  ],
+  "src/lfp/tests/test_warp_event_anchored.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tests/__init__.py",
+    "src/lfp/warp/event_anchored_linear.py"
+  ],
+  "src/lfp/tests/test_warp_pad_concat.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tests/__init__.py",
+    "src/lfp/warp/concat.py",
+    "src/lfp/warp/pad_concat.py",
+    "src/lfp/warp/stack.py"
+  ],
+  "src/lfp/tfr/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tfr/decompose.py",
+    "src/lfp/tfr/grid.py"
+  ],
+  "src/lfp/tfr/decompose.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/tfr/__init__.py"
+  ],
+  "src/lfp/tfr/grid.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/common/timefreq.py",
+    "src/lfp/tfr/__init__.py"
+  ],
+  "src/lfp/warp/__init__.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/warp/concat.py",
+    "src/lfp/warp/event_anchored_linear.py",
+    "src/lfp/warp/metadata.py",
+    "src/lfp/warp/pad_concat.py",
+    "src/lfp/warp/stack.py"
+  ],
+  "src/lfp/warp/concat.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/annotations.py",
+    "src/lfp/warp/__init__.py",
+    "src/lfp/warp/utils.py"
+  ],
+  "src/lfp/warp/event_anchored_linear.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/annotations.py",
+    "src/lfp/warp/__init__.py",
+    "src/lfp/warp/utils.py"
+  ],
+  "src/lfp/warp/metadata.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/warp/__init__.py"
+  ],
+  "src/lfp/warp/pad_concat.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/annotations.py",
+    "src/lfp/warp/__init__.py",
+    "src/lfp/warp/utils.py"
+  ],
+  "src/lfp/warp/stack.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/mask/annotations.py",
+    "src/lfp/warp/__init__.py",
+    "src/lfp/warp/utils.py"
+  ],
+  "src/lfp/warp/utils.py": [
+    "src/__init__.py",
+    "src/lfp/__init__.py",
+    "src/lfp/warp/__init__.py"
+  ],
+  "src/mer/__init__.py": [
+    "src/__init__.py",
+    "src/mer/metrics.py",
+    "src/mer/neuroomega_mat.py",
+    "src/mer/nex_convert.py",
+    "src/mer/stn_boundaries.py"
+  ],
+  "src/mer/io_utils.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py"
+  ],
+  "src/mer/metrics.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py"
+  ],
+  "src/mer/neuroomega_mat.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py",
+    "src/mer/io_utils.py"
+  ],
+  "src/mer/nex_convert.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py",
+    "src/mer/io_utils.py"
+  ],
+  "src/mer/plotting.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py"
+  ],
+  "src/mer/spectral.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py"
+  ],
+  "src/mer/spikeinterface_adapter.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py",
+    "src/mer/io_utils.py"
+  ],
+  "src/mer/stn_boundaries.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py"
+  ],
+  "src/mer/waveclus_pipeline.py": [
+    "src/__init__.py",
+    "src/mer/__init__.py",
+    "src/mer/io_utils.py",
+    "src/mer/metrics.py",
+    "src/mer/plotting.py",
+    "src/mer/spikeinterface_adapter.py"
+  ],
+  "src/posetrack/anipose_api.py": [
+    "src/__init__.py"
+  ],
+  "src/posetrack/gait_burst_time.py": [
+    "src/__init__.py"
+  ],
+  "src/posetrack/gait_feature.py": [
+    "src/__init__.py"
+  ],
+  "src/posetrack/merge_pose.py": [
+    "src/__init__.py",
+    "src/posetrack/track_io.py",
+    "src/utils/paths.py"
+  ],
+  "src/posetrack/mmpose_tracker.py": [
+    "src/__init__.py"
+  ],
+  "src/posetrack/pose_interp.py": [
+    "src/__init__.py",
+    "src/posetrack/track_io.py"
+  ],
+  "src/posetrack/pose_resample.py": [
+    "src/__init__.py"
+  ],
+  "src/posetrack/pose_sync.py": [
+    "src/__init__.py"
+  ],
+  "src/posetrack/track_io.py": [
+    "src/__init__.py"
+  ],
+  "src/preproc/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/preproc/channels.py": [
+    "src/__init__.py",
+    "src/preproc/__init__.py"
+  ],
+  "src/preproc/ecg_remover.py": [
+    "src/__init__.py",
+    "src/preproc/__init__.py"
+  ],
+  "src/preproc/filter.py": [
+    "src/__init__.py",
+    "src/preproc/__init__.py"
+  ],
+  "src/preproc/stitch.py": [
+    "src/__init__.py",
+    "src/preproc/__init__.py"
+  ],
+  "src/preproc/tag.py": [
+    "src/__init__.py",
+    "src/preproc/__init__.py"
+  ],
+  "src/qc/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/qc/scalogram.py": [
+    "src/__init__.py",
+    "src/qc/__init__.py"
+  ],
+  "src/qc/tensor_qc.py": [
+    "src/__init__.py",
+    "src/qc/__init__.py",
+    "src/tabular/text.py"
+  ],
+  "src/stats/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/stats/correlation/corr_matrix.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py"
+  ],
+  "src/stats/emm/emm.R": [
+    "src/stats/emm/emm.R"
+  ],
+  "src/stats/gait_cycle.py": [
+    "plugin/default/derive_default.py",
+    "plugin/default/stats_gait_cycle_default.py",
+    "plugin/default/tensors_default.py",
+    "src/__init__.py",
+    "src/io/pkl_io.py",
+    "src/stats/__init__.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/preproc/transform.py",
+    "src/tabular/reshape.py",
+    "src/utils/config.py",
+    "src/utils/transforms.py"
+  ],
+  "src/stats/pca/pca.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py",
+    "src/utils/fileops.py",
+    "src/utils/paths.py"
+  ],
+  "src/stats/preproc/__init__.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py",
+    "src/stats/preproc/aggregate.py",
+    "src/stats/preproc/normalize.py",
+    "src/stats/preproc/outliers.py",
+    "src/stats/preproc/transform.py"
+  ],
+  "src/stats/preproc/aggregate.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py",
+    "src/stats/preproc/__init__.py",
+    "src/tabular/nested_value.py"
+  ],
+  "src/stats/preproc/normalize.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py",
+    "src/stats/preproc/__init__.py",
+    "src/tabular/nested_value.py"
+  ],
+  "src/stats/preproc/outliers.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py",
+    "src/stats/preproc/__init__.py",
+    "src/tabular/nested_value.py"
+  ],
+  "src/stats/preproc/transform.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py",
+    "src/stats/preproc/__init__.py",
+    "src/tabular/nested_value.py",
+    "src/utils/transforms.py"
+  ],
+  "src/stats/stats.py": [
+    "src/__init__.py",
+    "src/stats/__init__.py"
+  ],
+  "src/tabular/__init__.py": [
+    "src/__init__.py",
+    "src/tabular/missing.py",
+    "src/tabular/nested_value.py",
+    "src/tabular/reshape.py",
+    "src/tabular/selection.py",
+    "src/tabular/text.py"
+  ],
+  "src/tabular/df_schema.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py"
+  ],
+  "src/tabular/grid.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py"
+  ],
+  "src/tabular/missing.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py",
+    "src/tabular/nested_value.py"
+  ],
+  "src/tabular/nested_value.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py"
+  ],
+  "src/tabular/reshape.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py",
+    "src/tabular/nested_value.py"
+  ],
+  "src/tabular/selection.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py"
+  ],
+  "src/tabular/tensor_slices.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py"
+  ],
+  "src/tabular/text.py": [
+    "src/__init__.py",
+    "src/tabular/__init__.py"
+  ],
+  "src/utils/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/utils/config.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/utils/fileops.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/utils/freqs.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/utils/parallel.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/utils/paths.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/utils/runlog.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/utils/transforms.py": [
+    "src/__init__.py",
+    "src/utils/__init__.py"
+  ],
+  "src/viz/__init__.py": [
+    "src/__init__.py"
+  ],
+  "src/viz/multi_exposure.py": [
+    "src/__init__.py",
+    "src/viz/__init__.py"
+  ],
+  "src/viz/pca.py": [
+    "src/__init__.py",
+    "src/viz/__init__.py",
+    "src/viz/visualdf.py"
+  ],
+  "src/viz/radar.py": [
+    "src/__init__.py",
+    "src/viz/__init__.py",
+    "src/viz/visualdf.py"
+  ],
+  "src/viz/surface/batch/visual_section_surface.m": [
+    "src/viz/surface/batch_helper/default_nifti2patch_config.m",
+    "src/viz/surface/batch_helper/default_plot_patch_config.m",
+    "src/viz/surface/batch_helper/find_heatmap_niftis.m",
+    "src/viz/surface/batch_helper/format_label.m",
+    "src/viz/surface/batch_helper/leaddbs_nifti2patch.m",
+    "src/viz/surface/batch_helper/leaddbs_plot_patch.m",
+    "src/viz/surface/batch_helper/parse_heatmap_path.m",
+    "src/viz/surface/batch_helper/region_views.m",
+    "src/viz/surface/batch_helper/strip_nii_ext.m",
+    "src/viz/surface/batch_helper/struct_deep_update.m"
+  ],
+  "src/viz/surface/batch_helper/default_nifti2patch_config.m": [
+    "src/viz/surface/render/ea_nifti2patch.m"
+  ],
+  "src/viz/surface/batch_helper/default_plot_patch_config.m": [
+    "src/viz/surface/render/ea_plot_patch_leaddbs.m"
+  ],
+  "src/viz/surface/batch_helper/format_label.m": [
+    "src/viz/surface/batch_helper/map_lookup_case_insensitive.m"
+  ],
+  "src/viz/surface/batch_helper/leaddbs_nifti2patch.m": [
+    "src/viz/surface/batch_helper/struct2namevalue.m",
+    "src/viz/surface/render/ea_nifti2patch.m"
+  ],
+  "src/viz/surface/batch_helper/leaddbs_plot_patch.m": [
+    "src/viz/surface/batch_helper/struct2namevalue.m",
+    "src/viz/surface/render/ea_nifti2patch.m",
+    "src/viz/surface/render/ea_plot_patch_leaddbs.m"
+  ],
+  "src/viz/surface/batch_helper/parse_heatmap_path.m": [
+    "src/viz/surface/batch_helper/canonical_region_key.m"
+  ],
+  "src/viz/surface/batch_helper/region_views.m": [
+    "src/viz/surface/render/ea_plot_patch_leaddbs.m"
+  ],
+  "src/viz/surface/render/ea_apply_view_struct.m": [
+    "src/viz/surface/render/ea_refresh_ras_triad.m"
+  ],
+  "src/viz/surface/render/ea_capture_view_struct.m": [
+    "src/viz/surface/render/ea_apply_view_struct.m"
+  ],
+  "src/viz/surface/render/ea_nifti2patch.m": [
+    "src/viz/surface/render/ea_colormap_vik.m",
+    "src/viz/surface/render/ea_colormap_viridis.m",
+    "src/viz/surface/render/ea_read_nifti_any.m"
+  ],
+  "src/viz/surface/render/ea_plot_patch_leaddbs.m": [
+    "src/viz/surface/render/ea_add_ras_triad.m",
+    "src/viz/surface/render/ea_apply_view_struct.m",
+    "src/viz/surface/render/ea_export_figure_transparent.m",
+    "src/viz/surface/render/ea_mark_patch_extrema.m",
+    "src/viz/surface/render/ea_refresh_ras_triad.m"
+  ],
+  "src/viz/visualdf.py": [
+    "src/__init__.py",
+    "src/viz/__init__.py"
+  ],
+  "tests/posetrack/test_merge_cycle_burst_time_conversion.py": [
+    "src/posetrack/gait_burst_time.py",
+    "tests/__init__.py"
+  ],
+  "tests/stats/test_gait_cycle.py": [
+    "plugin/default/stats_gait_cycle_default.py",
+    "recipes/stnsnr/viz/gait_cycle/plot_basic.py",
+    "src/io/pkl_io.py",
+    "src/stats/gait_cycle.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_active_contact_tables.py": [
+    "recipes/stnsnr/stats/clinic/active_contact_tables.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_med_scale_correlation.py": [
+    "recipes/stnsnr/stats/med/med_scale_correlation.py",
+    "recipes/stnsnr/viz/med/med_scale_correlation.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_scale_coords_standardized_slope.py": [
+    "recipes/stnsnr/stats/clinic/scale_coords_standardized_slope.py",
+    "recipes/stnsnr/viz/clinic/scale_coords_standardized_slope_heatmap.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_subject_effect_tables.py": [
+    "recipes/stnsnr/stats/clinic/subject_effect_tables.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_walk_lfp_fogq_3m_correlation.py": [
+    "recipes/stnsnr/stats/walk/walk_lfp_fogq_3m_correlation.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_walk_lfp_fogq_3m_correlation_heatmap.py": [
+    "recipes/stnsnr/viz/walk/walk_lfp_fogq_3m_correlation_heatmap.py",
+    "tests/__init__.py"
+  ],
+  "tests/stnsnr/test_walk_lfp_gait_pca_3m_correlation_heatmap.py": [
+    "recipes/stnsnr/viz/walk/walk_lfp_gait_pca_3m_correlation_heatmap.py",
+    "tests/__init__.py"
+  ],
+  "tests/test_spikeinterface_adapter.py": [
+    "src/mer/spikeinterface_adapter.py",
+    "tests/__init__.py"
+  ],
+  "tests/viz/__init__.py": [
+    "tests/__init__.py"
+  ],
+  "tests/viz/test_pca.py": [
+    "src/viz/pca.py",
+    "tests/__init__.py",
+    "tests/viz/__init__.py"
+  ],
+  "tests/viz/test_visualdf.py": [
+    "src/viz/visualdf.py",
+    "tests/__init__.py",
+    "tests/viz/__init__.py"
+  ]
+}

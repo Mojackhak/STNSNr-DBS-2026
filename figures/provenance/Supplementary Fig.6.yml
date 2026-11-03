@@ -1,0 +1,10 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_local_scale_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_local_scale_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_12.yaml panel a. Correlation heatmap between resting-state
+    SNr local LFP features and clinical scales.'

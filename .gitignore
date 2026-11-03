@@ -1,0 +1,96 @@
+# Allowlist: ignore everything except specific file types
+*
+.*
+!*/
+!.*/
+!.gitignore
+!.env.example
+!*.env.example
+!.LICENSE
+
+# Code
+!*.py
+!*.pyi
+!*.ipynb
+!*.R
+!*.Rmd
+!*.qmd
+!*.m
+!*.mlx
+
+# Config and metadata
+!*.toml
+!*.yaml
+!*.yml
+!*.json
+!*.ini
+!*.cfg
+!*.txt
+!*.md
+!*.rst
+
+# Build / environment
+!*.lock
+
+# Scripts / commands
+!*.sh
+!*.bash
+!*.zsh
+!*.ps1
+!tools/export_ai_to_layered_pdf.jsx
+
+# Data samples
+!*.csv
+!*.tsv
+
+# Only keep plugin defaults under version control
+plugin/*
+!plugin/default/
+!plugin/default/**
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# R caches
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# MATLAB caches and generated files
+*.asv
+*.m~
+*.mex*
+*.slxc
+*.autosave
+slprj/
+codegen/
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.fseventsd
+
+# Ignore all recipes except demo and shared STNSNr study recipes
+recipes/*
+!recipes/demo/
+!recipes/demo/**
+!recipes/stnsnr/
+.vscode/settings.json
+
+# Local run receipts and generated publication-demo outputs
+/tmp/
+/examples/output/
+/data/

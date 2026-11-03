@@ -1,0 +1,121 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/diagram/pain.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Mechanical-pain stimulation schematic. Panel lineage: 20260909/Figure_07.yml panel a.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/phase_pairwise/pain_phase_pairwise_local_params_signed_logp_layered_heatmap_bl_comparisons.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/phase_pairwise/pain_phase_pairwise_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Updated BL comparison composite, including SNr/STN local metrics and the Exponent/Offset matrices
+    to their right. Replaces the local-only BL source used by 20260909/Figure_07 panel b. Retain BL vs
+    ONS, BL vs SUS, BL vs OFS and BL vs PST; omit connectivity. For labels a versus b, colors encode sign(b-a)
+    * -log10(p_tukey), clipped to [-3, 3]; positive values indicate b > a. The table retains the per-cell
+    source_csv, contrast, estimate and p_tukey.
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-transformed-raw/All/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-transformed-raw/period-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Pain periodic-power time-frequency representation for SNr and STN. Panel lineage: 20260909/Figure_07.yml
+    panel c.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-trace/Beta_low/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-trace/period-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Pain low-beta periodic-power mean trace for SNr and STN. Panel lineage: 20260909/Figure_07.yml
+    panel e.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-trace/Delta/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-trace/raw-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Pain delta total-power mean trace for SNr and STN. Panel lineage: 20260909/Figure_07.yml panel
+    i.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Beta_low/rlmer_model/Phase-Region_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Beta_low/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Beta_low/rlmer_model/Phase-Region_tukey.csv
+  notes: 'User-supplied source visually matched to the current AI panel. Same-directory Phase-Region EMM
+    and Tukey tables cover BL, ONS, SUS, OFS and PST. Read SNr and STN separately using Region. Displayed
+    significance markers match p_tukey. Omnibus remains null: model_omnibus.csv has Phase df1=3 with coordinate
+    interactions; correspondence to the five-phase raw comparison is unconfirmed. Panel lineage: 20260909/Supplementary
+    Fig.21.yml panel d.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/rlmer_model/Phase-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/raw-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/rlmer_model/Phase-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/rlmer_model/Phase-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_28.yaml panel b. Pain delta total power values by
+    phase and region. Panel lineage: 20260909/Supplementary Fig.20.yml panel d.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/phase_pairwise/pain_phase_pairwise_connectivity_signed_logp_layered_heatmap_bl_comparisons.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/phase_pairwise/pain_phase_pairwise_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: SNr-STN connectivity BL comparison heatmap. This is the BL-only subset of the full ten-comparison
+    heatmap in 20260909/Supplementary Fig.21 panel e. Retain BL vs ONS, BL vs SUS, BL vs OFS and BL vs
+    PST. Rows show coherence, wPLI, ciPLV, TRGC and PSI. For labels a versus b, positive values indicate
+    b > a; colors use signed -log10(p_tukey) clipped to [-3, 3]. The table records each source_csv.
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-transformed-raw/All/Region-SNr-STN_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-transformed-raw/coh-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_30.yaml panel b. Pain coherence for SNr-STN. Panel
+    lineage: 20260909/Supplementary Fig.21.yml panel f. The displayed panel is a time-frequency map.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-trace/Delta/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-trace/coh-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added pain delta-coherence mean trace for SNr-STN, shown as the BL-normalized change in Fisher
+    z of square-root coherence. No inferential timepoint statistics are assigned to this trace.
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/rlmer_model/Phase-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/coh-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_30.yaml panel d. Pain delta coherence values by phase
+    for SNr-STN; no exact Phase-Region-SNr-STN or Phase-Region EMM/Tukey export was found. Panel lineage:
+    20260909/Supplementary Fig.21.yml panel g.'
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Phase-Region-SNr-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Phase_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/Phase_tukey.csv
+  notes: 'User-supplied source visually matched to the current AI panel. Same-directory Phase EMM and
+    Tukey tables cover BL, ONS, SUS, OFS and PST. The Phase tables have no Region column; their means
+    and contrasts match the displayed connectivity panel. Displayed significance markers match p_tukey.
+    Omnibus remains null: model_omnibus.csv has Phase df1=3 with coordinate interactions; correspondence
+    to the five-phase raw comparison is unconfirmed. Panel lineage: 20260909/Supplementary Fig.21.yml
+    panel k.'

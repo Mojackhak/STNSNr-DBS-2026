@@ -1,0 +1,97 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature-Region-Gradient_Walk_speed_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/model_omnibus_Walk_speed.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: z_Feature_between-Region_Walk_speed
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature_between-Region_Walk_speed_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature_between-Region_Walk_speed_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature_between-Region_Walk_speed_slope.csv
+  notes: 'User-supplied source, visually matched to the current AI panel: use only the Between row (SNr
+    and STN) of the source PDF; exclude the Within row. Feature: Walk_speed, z-scored. The feature_models
+    entry records the z_Feature_between curves, region-specific omnibus tests and slopes; slope and q
+    values match the displayed beta and q annotations. The top-level omnibus is the full model table,
+    including both within- and between-subject terms.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature-Region-Gradient_Stride_length_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/model_omnibus_Stride_length.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: z_Feature_between-Region_Stride_length
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature_between-Region_Stride_length_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature_between-Region_Stride_length_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-rate-scalar/Theta/rlmer_model/z_Feature_between-Region_Stride_length_slope.csv
+  notes: 'User-supplied source, visually matched to the current AI panel: use only the Between row (SNr
+    and STN) of the source PDF; exclude the Within row. Feature: Stride_length, z-scored. The feature_models
+    entry records the z_Feature_between curves, region-specific omnibus tests and slopes; slope and q
+    values match the displayed beta and q annotations. The top-level omnibus is the full model table,
+    including both within- and between-subject terms.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature-Region-Gradient_Walk_speed_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/model_omnibus_Walk_speed.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: z_Feature_between-Region_Walk_speed
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature_between-Region_Walk_speed_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature_between-Region_Walk_speed_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature_between-Region_Walk_speed_slope.csv
+  notes: 'User-supplied source, visually matched to the current AI panel: use only the Between row (SNr
+    and STN) of the source PDF; exclude the Within row. Feature: Walk_speed, z-scored. The feature_models
+    entry records the z_Feature_between curves, region-specific omnibus tests and slopes; slope and q
+    values match the displayed beta and q annotations. The top-level omnibus is the full model table,
+    including both within- and between-subject terms.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature-Region-Gradient_Stride_length_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/model_omnibus_Stride_length.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: z_Feature_between-Region_Stride_length
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature_between-Region_Stride_length_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature_between-Region_Stride_length_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/burst/burst/burst-occupation-scalar/Theta/rlmer_model/z_Feature_between-Region_Stride_length_slope.csv
+  notes: 'User-supplied source, visually matched to the current AI panel: use only the Between row (SNr
+    and STN) of the source PDF; exclude the Within row. Feature: Stride_length, z-scored. The feature_models
+    entry records the z_Feature_between curves, region-specific omnibus tests and slopes; slope and q
+    values match the displayed beta and q annotations. The top-level omnibus is the full model table,
+    including both within- and between-subject terms.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/z_Feature-Region-Gradient_Walk_speed_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/period-mean-scalar_contact_normalized.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/model_omnibus_Walk_speed.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_05.yml panel k. Between-subject and within-subject associations
+    between z-scored walk speed and high-beta periodic power by region, shown as walking-related changes
+    relative to standing. Between-subject row of the reference fit; the within-subject row is outside
+    this current panel.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/z_Feature-Region-Gradient_Stride_length_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/model_omnibus_Stride_length.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: z_Feature_between-Region_Stride_length
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/z_Feature_between-Region_Stride_length_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/z_Feature_between-Region_Stride_length_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/tfr/period/period-mean-scalar/Beta_high/rlmer_model/z_Feature_between-Region_Stride_length_slope.csv
+  notes: 'User-supplied source, visually matched to the current AI panel: use only the Between row (SNr
+    and STN) of the source PDF; exclude the Within row. Feature: Stride_length, z-scored. The feature_models
+    entry records the z_Feature_between curves, region-specific omnibus tests and slopes; slope and q
+    values match the displayed beta and q annotations. The top-level omnibus is the full model table,
+    including both within- and between-subject terms.'

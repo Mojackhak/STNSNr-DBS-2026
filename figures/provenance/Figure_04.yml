@@ -1,0 +1,86 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/flowchart/4a.ai
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_04.yml panel a. Movement-paradigm schematic comparing sit, stand,
+    walk, and turn conditions under single-task and dual-task contexts.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-spectral/All/Pose-Region-Task-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-spectral/period-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_04.yml panel c. Periodic power spectra by pose, region, and single-task
+    condition.'
+- panel_id: c
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_snr_local_single_signed_logp_layered_heatmap
+    copy.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_stn_local_single_signed_logp_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_params_single_signed_logp_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/pose_pairwise/walk_pose_task_pairwise_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_04.yml panel b. Pairwise pose-comparison signed log-P heatmaps
+    for SNr local features, STN local features, and aperiodic power parameter features during the single-task
+    walking paradigm; for labels a versus b, positive values indicate b > a.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Beta_high/rlmer_model/Pose-Region-Task-STN-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/period-mean-scalar_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Beta_high/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Beta_high/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'High-beta periodic power (dB) in STN across Sit, Stand, Walk and Turn during the single task.
+    Source path recovered from the current Figure_04.pdf XMP and visually verified. Select Band=Beta_high,
+    Region=STN and Task=Single in the regional data; select Region=STN and Task=Single in the EMM and
+    Tukey tables. Points are patient-hemisphere regional means. The companion period-mean-scalar_region_raw.csv
+    contains n = 25, 22, 17 and 17 patients (46, 39, 28 and 33 regional observations), respectively. Omnibus
+    remains null: the same-directory model_omnibus.csv contains spatial-coordinate terms, Pose df1=2 and
+    no Task term, so correspondence to this four-pose raw comparison is unconfirmed.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Gamma/rlmer_model/Pose-Region-Task-STN-Single_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/period-mean-scalar_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Gamma/rlmer_model/Pose-Region-Task_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/tfr/period/period-mean-scalar/Gamma/rlmer_model/Pose-Region-Task_tukey.csv
+  notes: 'Gamma periodic power (dB) in STN across Sit, Stand, Walk and Turn during the single task. Source
+    path recovered from the current Figure_04.pdf XMP and visually verified. Select Band=Gamma, Region=STN
+    and Task=Single in the regional data; select Region=STN and Task=Single in the EMM and Tukey tables.
+    Points are patient-hemisphere regional means. The companion period-mean-scalar_region_raw.csv contains
+    n = 25, 22, 16 and 17 patients (46, 38, 27 and 33 regional observations), respectively. Omnibus remains
+    null: the same-directory model_omnibus.csv contains spatial-coordinate terms, Pose df1=2 and no Task
+    term, so correspondence to this four-pose raw comparison is unconfirmed.'
+- panel_id: f
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/task_dual_vs_single/walk_task_snr_local_dual_vs_single_signed_logp_freq_by_param_layered_heatmap
+    copy.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/task_dual_vs_single/walk_task_stn_local_dual_vs_single_signed_logp_freq_by_param_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/task_dual_vs_single/walk_task_params_dual_vs_single_signed_logp_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/task_dual_vs_single/walk_task_dual_vs_single_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Previously panel d in figure0930. Reference provenance: Figure_04.yml panel e. Dual-task versus
+    single-task signed log-P heatmaps for SNr local features, STN local features, and aperiodic power
+    parameter features; positive values indicate Dual > Single.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/task_dual_vs_single/walk_task_connectivity_dual_vs_single_signed_logp_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_task_dual_vs_single_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Previously panel e in figure0930. Current linked PDF recovered from Figure_04.pdf XMP and visually
+    verified; the data source lists the per-cell Tukey results. Reference provenance: Supplementary_Figure_21.yaml
+    panel h. Connectivity dual-task versus single-task signed log-P heatmap for walking-task effects;
+    positive values indicate Dual > Single.'

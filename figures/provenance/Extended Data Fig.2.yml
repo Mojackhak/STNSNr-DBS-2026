@@ -1,0 +1,109 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel a. LAS step length across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS stride width (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS stride width (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS stride width (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS stride width (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel b. LAS stride width across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel c. LAS swing phase percentage across
+    preoperative and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel d. LAS foot clearance across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel e. MAS step length across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel f. MAS stride width across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel g. MAS swing phase percentage across
+    preoperative and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel h. MAS foot clearance across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel i. Pace across preoperative and postoperative
+    STN or STN+SNr stimulation conditions.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Gait cycle (s)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Gait cycle (s)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Gait cycle (s)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Gait cycle (s)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel j. Gait cycle duration across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel k. Stride length across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_04.yml panel l. Double-supporting phase percentage
+    across preoperative and postoperative STN or STN+SNr stimulation conditions.'

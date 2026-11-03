@@ -1,0 +1,61 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_snr_local_kpps_3m_delta_percent_corr_heatmap.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_snr_local_kpps_3m_corr_by_phase.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_snr_local_subject_normalized_wide_by_phase.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_kpps_3m_subset_for_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_36.yaml panel a. Correlation heatmap between pain-task
+    SNr local LFP features and 3-month KPPS percentage change from preoperative baseline by pain phase.
+    Current panel retains ONS, SUS and OFS only; exclude PST (post period) from the source image and phase-specific
+    data tables. Source PDF is the full original figure component; PST is omitted in the current AI assembly.
+    Clinical rows are KPPS percentage improvement from the preoperative baseline with STN at 3 m, followed
+    by the additional percentage-point improvement from adding SNr at 3 m. The latter is computed as STN+SNr
+    improvement percentage minus STN improvement percentage. Its source label is "Delta KPPS Delta % (+SNr,
+    3m)" (Delta denotes the delta symbol). The current AI label "KPPS Delta % (SNr, 3m)" omits the incremental
+    Delta and plus sign; the source definition remains the additional improvement. The AI label has not
+    been edited.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_stn_local_kpps_3m_delta_percent_corr_heatmap.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_stn_local_kpps_3m_corr_by_phase.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_stn_local_subject_normalized_wide_by_phase.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_kpps_3m_subset_for_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_36.yaml panel b. Correlation heatmap between pain-task
+    STN local LFP features and 3-month KPPS percentage change from preoperative baseline by pain phase.
+    Current panel retains ONS, SUS and OFS only; exclude PST (post period) from the source image and phase-specific
+    data tables. Source PDF is the full original figure component; PST is omitted in the current AI assembly.
+    Clinical rows are KPPS percentage improvement from the preoperative baseline with STN at 3 m, followed
+    by the additional percentage-point improvement from adding SNr at 3 m. The latter is computed as STN+SNr
+    improvement percentage minus STN improvement percentage. Its source label is "Delta KPPS Delta % (+SNr,
+    3m)" (Delta denotes the delta symbol). The current AI label "KPPS Delta % (SNr, 3m)" omits the incremental
+    Delta and plus sign; the source definition remains the additional improvement. The AI label has not
+    been edited.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_connectivity_kpps_3m_delta_percent_corr_heatmap.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_connectivity_kpps_3m_corr_by_phase.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_connectivity_subject_normalized_wide_by_phase.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/pain_lfp_kpps_3m/pain_kpps_3m_subset_for_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_36.yaml panel c. Correlation heatmap between pain-task
+    connectivity features and 3-month KPPS percentage change from preoperative baseline by pain phase.
+    Current panel retains ONS, SUS and OFS only; exclude PST (post period) from the source image and phase-specific
+    data tables. Source PDF is the full original figure component; PST is omitted in the current AI assembly.
+    Clinical rows are KPPS percentage improvement from the preoperative baseline with STN at 3 m, followed
+    by the additional percentage-point improvement from adding SNr at 3 m. The latter is computed as STN+SNr
+    improvement percentage minus STN improvement percentage. Its source label is "Delta KPPS Delta % (+SNr,
+    3m)" (Delta denotes the delta symbol). The current AI label "KPPS Delta % (SNr, 3m)" omits the incremental
+    Delta and plus sign; the source definition remains the additional improvement. The AI label has not
+    been edited.'

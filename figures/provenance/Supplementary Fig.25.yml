@@ -1,0 +1,70 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_fogq_3m/walk_single_snr_local_fogq_3m_corr_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_gait_pca_3m/walk_single_snr_local_gait_pca_3m_corr_heatmap_stn_snr_effects.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_fogq_3m/walk_single_snr_local_fogq_3m_corr_by_pose.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_gait_pca_3m/walk_single_snr_local_gait_pca_3m_corr_by_pose.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-confirmed manual composite source for SNr local: upper two rows are FOGQ correlations and
+    lower two rows are gait-PCA correlations. Image-source and workbook order is FOGQ, gait PCA. Use only
+    the Walk block from each source PDF; exclude Stand and Turn. The gait-PCA source is the compact stn_snr_effects
+    PDF. In its workbook retain the rows Delta Gait PCA STN vs Pre-op and Delta Gait PCA STN+SNr vs STN;
+    omit STN+SNr vs Pre-op. For FOGQ retain both source rows: FOG-Q Delta% (STN, 3m) and Delta FOG-Q Delta%
+    (+SNr, 3m). The displayed SNr clinical-effect row means the incremental effect of adding SNr to STN
+    stimulation, not an SNr-only protocol. LFP columns represent walking-related changes relative to Sit.
+    Colors use Spearman rho from Walk_r; significance stars use uncorrected p values from Walk_p_raw in
+    the listed workbooks. The shared colorbar and labels are rearranged in the composite. Omnibus, EMM
+    and Tukey fields are not applicable to these correlation heatmaps; statistical results are in the
+    listed workbooks. The earlier provisional match is replaced by direct comparison of the current PDF
+    with these source PDFs and workbook row/column checks.'
+- panel_id: b
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_fogq_3m/walk_single_stn_local_fogq_3m_corr_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_gait_pca_3m/walk_single_stn_local_gait_pca_3m_corr_heatmap_stn_snr_effects.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_fogq_3m/walk_single_stn_local_fogq_3m_corr_by_pose.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_gait_pca_3m/walk_single_stn_local_gait_pca_3m_corr_by_pose.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-confirmed manual composite source for STN local: upper two rows are FOGQ correlations and
+    lower two rows are gait-PCA correlations. Image-source and workbook order is FOGQ, gait PCA. Use only
+    the Walk block from each source PDF; exclude Stand and Turn. The gait-PCA source is the compact stn_snr_effects
+    PDF. In its workbook retain the rows Delta Gait PCA STN vs Pre-op and Delta Gait PCA STN+SNr vs STN;
+    omit STN+SNr vs Pre-op. For FOGQ retain both source rows: FOG-Q Delta% (STN, 3m) and Delta FOG-Q Delta%
+    (+SNr, 3m). The displayed SNr clinical-effect row means the incremental effect of adding SNr to STN
+    stimulation, not an SNr-only protocol. LFP columns represent walking-related changes relative to Sit.
+    Colors use Spearman rho from Walk_r; significance stars use uncorrected p values from Walk_p_raw in
+    the listed workbooks. The shared colorbar and labels are rearranged in the composite. Omnibus, EMM
+    and Tukey fields are not applicable to these correlation heatmaps; statistical results are in the
+    listed workbooks. The earlier provisional match is replaced by direct comparison of the current PDF
+    with these source PDFs and workbook row/column checks.'
+- panel_id: c
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_fogq_3m/walk_single_connectivity_fogq_3m_corr_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_gait_pca_3m/walk_single_connectivity_gait_pca_3m_corr_heatmap_stn_snr_effects.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_fogq_3m/walk_single_connectivity_fogq_3m_corr_by_pose.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/walk_lfp_gait_pca_3m/walk_single_connectivity_gait_pca_3m_corr_by_pose.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-confirmed manual composite source for SNr-STN / SNr-to-STN connectivity: upper two rows
+    are FOGQ correlations and lower two rows are gait-PCA correlations. Image-source and workbook order
+    is FOGQ, gait PCA. Use only the Walk block from each source PDF; exclude Stand and Turn. The gait-PCA
+    source is the compact stn_snr_effects PDF. In its workbook retain the rows Delta Gait PCA STN vs Pre-op
+    and Delta Gait PCA STN+SNr vs STN; omit STN+SNr vs Pre-op. For FOGQ retain both source rows: FOG-Q
+    Delta% (STN, 3m) and Delta FOG-Q Delta% (+SNr, 3m). The displayed SNr clinical-effect row means the
+    incremental effect of adding SNr to STN stimulation, not an SNr-only protocol. LFP columns represent
+    walking-related changes relative to Sit. Colors use Spearman rho from Walk_r; significance stars use
+    uncorrected p values from Walk_p_raw in the listed workbooks. The shared colorbar and labels are rearranged
+    in the composite. Omnibus, EMM and Tukey fields are not applicable to these correlation heatmaps;
+    statistical results are in the listed workbooks. The earlier provisional match is replaced by direct
+    comparison of the current PDF with these source PDFs and workbook row/column checks.'

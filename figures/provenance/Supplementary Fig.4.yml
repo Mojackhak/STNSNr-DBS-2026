@@ -1,0 +1,31 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/lead/MER83/Screenshot 2025-10-12 at 12.16.01 PM.png
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_10.yaml panel b. Localization of sorted GABAergic
+    units in the SNr; no standalone source data were provided for this screenshot.'
+- panel_id: b
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/eg/mer/waveforms_unit_0.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/eg/mer/waveforms_unit_1.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Current AI panel b combines two sorted SNr GABAergic unit waveforms. Source order: waveforms_unit_0.pdf
+    is GABA Unit 1; waveforms_unit_1.pdf is GABA Unit 2. No standalone waveform data file was assigned.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/lead/MER83/Screenshot 2025-10-12 at 12.02.26 AM.png
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Current AI visual match: bilateral electrode-localization image in panel c. Historical provenance:
+    Supplementary_Figure_10.yaml panel a. The previous YAML d record was relabeled to c because the current
+    AI has panels a-c only. No standalone source data were provided for this screenshot.'

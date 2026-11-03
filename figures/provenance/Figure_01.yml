@@ -1,0 +1,194 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: null
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel a. Patient enrollment and follow-up flow. The lower
+    timeline indicates follow-up time points and the stimulation parameters assigned to patients after
+    follow-up; image and data sources were intentionally left blank.'
+- panel_id: b
+  image_source: null
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel b. Lead-DBS electrode localization results for the
+    36 enrolled patients; image and data sources were intentionally left blank.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/lead/cohort36/active2.png
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel c. Spatial localization of active STN+SNr contacts
+    in the 16 patients with final follow-up; left-side contacts were flipped to the right side. Blue spheres
+    denote high-frequency stimulation sites (>100 Hz), and red spheres denote ultra-low-frequency stimulation
+    sites (<50 Hz).'
+  script_source: ${MYLFP_REPO_ROOT}/recipes/stnsnr/viz/clinic/show_dots.m
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/pca_combine.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/result.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel d. Clinical-scale PCA result for follow-up patients.
+    The left plot shows the PC1-PC2 space, and the right plot shows the magnified view of the same PC
+    space.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/rlmer_model/Protocol_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/dist.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/rlmer_model/Protocol_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/rlmer_model/Protocol_tukey.csv
+  notes: 'Reference provenance: Figure_01.yml panel e. Signed projection distance from Pre-op along the
+    predefined improvement direction in clinical PCA space; larger positive values indicate greater improvement.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/radar_combine.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_agg.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: MADRS score
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/Condition_tukey.csv
+    - feature: FOGQ score
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/Condition_tukey.csv
+    - feature: KPPS score
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/Condition_tukey.csv
+    - feature: FSS
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FSS/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FSS/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FSS/rlmer_model/Condition_tukey.csv
+    - feature: MDS-UPDRS III score
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/Condition_tukey.csv
+    - feature: MDS-UDPRS II
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UDPRS II/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UDPRS II/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UDPRS II/rlmer_model/Condition_tukey.csv
+    - feature: SCOPA-AUT
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SCOPA-AUT/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SCOPA-AUT/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SCOPA-AUT/rlmer_model/Condition_tukey.csv
+    - feature: SDQ
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SDQ/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SDQ/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SDQ/rlmer_model/Condition_tukey.csv
+    - feature: RBDSQ
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/RBDSQ/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/RBDSQ/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/RBDSQ/rlmer_model/Condition_tukey.csv
+    - feature: MDS-UPDRS IV
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS IV/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS IV/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS IV/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Figure_01.yml panel f. Radar plot of the clinical-scale top-10 features
+    by PC1 loading across follow-up stages.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/pca_combine.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/result.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel g. Gait-parameter PCA result for follow-up patients.
+    The left plot shows the PC1-PC2 space, and the right plot shows the magnified view of the same PC
+    space.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/rlmer_model/Protocol-Phase_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/dist.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/rlmer_model/Protocol-Phase_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/rlmer_model/Protocol-Phase_tukey.csv
+  notes: 'Current AI visual match: Protocol-Phase_raw.pdf. Signed projection distance from Pre-op along
+    the predefined improvement direction in gait PCA space; larger positive values indicate greater improvement.
+    Compare STN versus STN+SNr separately at Immediate and 3 m. The 3 m protocol contrast carries the
+    displayed *** annotation. The EMM and Tukey tables use the same Protocol-within-Phase comparison.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/radar_combine.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_agg.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/scale_subject.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: Stride length (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Stride length (cm)/rlmer_model/Condition_tukey.csv
+    - feature: Pace (m s)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Pace (m s)/rlmer_model/Condition_tukey.csv
+    - feature: LAS step length (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS step length (cm)/rlmer_model/Condition_tukey.csv
+    - feature: MAS step length (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS step length (cm)/rlmer_model/Condition_tukey.csv
+    - feature: LAS swing phase (%)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS swing phase (%)/rlmer_model/Condition_tukey.csv
+    - feature: Double supporting phase (%)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/Double supporting phase (%)/rlmer_model/Condition_tukey.csv
+    - feature: LAS foot clearance (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/LAS foot clearance (cm)/rlmer_model/Condition_tukey.csv
+    - feature: MAS foot clearance (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS foot clearance (cm)/rlmer_model/Condition_tukey.csv
+    - feature: MAS swing phase (%)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS swing phase (%)/rlmer_model/Condition_tukey.csv
+    - feature: MAS stride width (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/gait/MAS stride width (cm)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Figure_01.yml panel i. Radar plot of the gait-parameter top-10 features
+    by PC1 loading across follow-up stages.'
+- panel_id: j
+  image_source: null
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel j. Meta-analysis forest plot for FOGQ improvement;
+    image and data sources were intentionally left blank.'
+- panel_id: k
+  image_source: null
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_01.yml panel k. Meta-analysis forest plot for PDQ39 improvement;
+    image and data sources were intentionally left blank.'

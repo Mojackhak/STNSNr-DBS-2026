@@ -1,0 +1,205 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel a. MDS-UPDRS III score across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III axial score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III axial score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III axial score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MDS-UPDRS III axial score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel b. MDS-UPDRS III axial score across
+    preoperative and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/FOGQ score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel c. FOGQ score across preoperative and
+    postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Bradykinesia subscore (Med OFF)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Bradykinesia subscore (Med OFF)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Bradykinesia subscore (Med OFF)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Bradykinesia subscore (Med OFF)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel d. Bradykinesia subscore in the medication-off
+    state across preoperative and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Tremor subscore (Med OFF)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Tremor subscore (Med OFF)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Tremor subscore (Med OFF)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/Tremor subscore (Med OFF)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel e. Tremor subscore in the medication-off
+    state across preoperative and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/KPPS score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel f. KPPS score across preoperative and
+    postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/MADRS score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel g. MADRS score across preoperative and
+    postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/BDI score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/BDI score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/BDI score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/BDI score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel h. BDI score across preoperative and
+    postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/PDQ39 score/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/PDQ39 score/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/PDQ39 score/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/PDQ39 score/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel i. PDQ39 score across preoperative and
+    postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/ADL/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/ADL/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/ADL/rlmer_model/Group_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/ADL/rlmer_model/Group_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel j. ADL score panel using the available
+    condition-level plot; group-level EMM and Tukey statistics are recorded because no matching group-level
+    plot exists.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SE-ADL score (%)/rlmer_model/Condition_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/scale_subject.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SE-ADL score (%)/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SE-ADL score (%)/rlmer_model/Condition_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/3m/SE-ADL score (%)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel k. SE-ADL score percentage across preoperative
+    and postoperative STN or STN+SNr stimulation conditions.'
+- panel_id: l
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/pca.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/pca_zoom.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/result.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel l. Balance-parameter PCA result for
+    follow-up patients. The left plot shows the PC1-PC2 space, and the right plot shows the magnified
+    view of the same PC space.'
+- panel_id: m
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/rlmer_model/Protocol-Phase_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/dist.xlsx
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/rlmer_model/Protocol-Phase_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/rlmer_model/Protocol-Phase_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel m. Signed projection distance from Pre-op
+    along the predefined improvement direction in balance PCA space; larger positive values indicate greater
+    improvement.'
+- panel_id: n
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/radar_all.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/scale_agg.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/scale_subject.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: Total sway path length during eyes-closed bipedal stance (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Total sway path length during
+        eyes-closed bipedal stance (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Total sway path length during eyes-closed
+        bipedal stance (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Total sway path length during eyes-closed
+        bipedal stance (cm)/rlmer_model/Condition_tukey.csv
+    - feature: Sway path length per unit time during eyes-closed bipedal stance (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway path length per unit time
+        during eyes-closed bipedal stance (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway path length per unit time during
+        eyes-closed bipedal stance (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway path length per unit time
+        during eyes-closed bipedal stance (cm)/rlmer_model/Condition_tukey.csv
+    - feature: Postural sway velocity during eyes-closed bipedal stance (cms)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Postural sway velocity during
+        eyes-closed bipedal stance (cms)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Postural sway velocity during eyes-closed
+        bipedal stance (cms)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Postural sway velocity during eyes-closed
+        bipedal stance (cms)/rlmer_model/Condition_tukey.csv
+    - feature: Total sway path length during eyes-open bipedal stance (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Total sway path length during
+        eyes-open bipedal stance (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Total sway path length during eyes-open
+        bipedal stance (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Total sway path length during eyes-open
+        bipedal stance (cm)/rlmer_model/Condition_tukey.csv
+    - feature: Sway path length per unit time during eyes-open bipedal stance (cm)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway path length per unit time
+        during eyes-open bipedal stance (cm)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway path length per unit time during
+        eyes-open bipedal stance (cm)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway path length per unit time
+        during eyes-open bipedal stance (cm)/rlmer_model/Condition_tukey.csv
+    - feature: Postural sway velocity during eyes-open bipedal stance (cms)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Postural sway velocity during
+        eyes-open bipedal stance (cms)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Postural sway velocity during eyes-open
+        bipedal stance (cms)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Postural sway velocity during eyes-open
+        bipedal stance (cms)/rlmer_model/Condition_tukey.csv
+    - feature: Sway area during eyes-open bipedal stance (cm2)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway area during eyes-open bipedal
+        stance (cm2)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway area during eyes-open bipedal
+        stance (cm2)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway area during eyes-open bipedal
+        stance (cm2)/rlmer_model/Condition_tukey.csv
+    - feature: Sway area during eyes-closed bipedal stance (cm2)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway area during eyes-closed
+        bipedal stance (cm2)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway area during eyes-closed bipedal
+        stance (cm2)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Sway area during eyes-closed bipedal
+        stance (cm2)/rlmer_model/Condition_tukey.csv
+    - feature: Support base area during eyes-closed bipedal stance (cm2)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Support base area during eyes-closed
+        bipedal stance (cm2)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Support base area during eyes-closed
+        bipedal stance (cm2)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Support base area during eyes-closed
+        bipedal stance (cm2)/rlmer_model/Condition_tukey.csv
+    - feature: Support base area during eyes-open bipedal stance (cm2)
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Support base area during eyes-open
+        bipedal stance (cm2)/rlmer_model/model_omnibus.csv
+      emm: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Support base area during eyes-open
+        bipedal stance (cm2)/rlmer_model/Condition_emm.csv
+      tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/effect/balance/Support base area during eyes-open
+        bipedal stance (cm2)/rlmer_model/Condition_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_01.yml panel n. Radar plot of the balance-parameter
+    top-10 features by PC1 loading across follow-up stages.'

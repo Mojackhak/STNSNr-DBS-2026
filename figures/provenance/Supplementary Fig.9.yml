@@ -1,0 +1,101 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Hemi-Region-SNr_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Hemi-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/Alpha/rlmer_model/Hemi-Region_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Resting-state Alpha
+    burst rate by hemisphere for SNr. For EMM and Tukey tables select Region=SNr; the contrast is LAH
+    - MAH. Omnibus remains null: the model_omnibus.csv in this directory contains Region and coordinate
+    terms but no Hemi term, so it is not assigned to this hemisphere comparison. Data source has not been
+    assigned.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Hemi-Region-SNr_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Hemi-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/Beta_low/rlmer_model/Hemi-Region_tukey.csv
+  notes: 'User-supplied image source, visually checked against the current AI panel. Resting-state Beta_low
+    burst rate by hemisphere for SNr. For EMM and Tukey tables select Region=SNr; the contrast is LAH
+    - MAH. Omnibus remains null: the model_omnibus.csv in this directory contains Region and coordinate
+    terms but no Hemi term, so it is not assigned to this hemisphere comparison. Data source has not been
+    assigned.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Hemi-Region-SNr_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Hemi-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/Beta_low/rlmer_model/Hemi-Region_tukey.csv
+  notes: 'Reference provenance: Supplementary_Figure_15.yaml panel g. Resting-state low-beta burst occupation
+    by hemisphere and region, shown for SNr.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-spectral/All/Hemi-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-spectral/wpli-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_15.yaml panel e. Resting-state wPLI spectra by hemisphere
+    for SNr-STN.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/ciplv/ciplv-mean-scalar/Alpha/rlmer_model/Hemi-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/ciplv/ciplv-mean-scalar/ciplv-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/ciplv/ciplv-mean-scalar/Alpha/rlmer_model/Hemi_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/ciplv/ciplv-mean-scalar/Alpha/rlmer_model/Hemi_tukey.csv
+  notes: 'Current AI visual match: resting-state Alpha ciplv by hemisphere for SNr-STN. Select Band=Alpha
+    and Region=SNr-STN in the contact-level source. The Hemi EMM and Tukey tables give the displayed LAH
+    - MAH contrast. Omnibus remains null because model_omnibus.csv contains Region and coordinate terms
+    but no Hemi term.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/Hemi-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/Hemi_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/Hemi_tukey.csv
+  notes: 'Current AI visual match: resting-state Beta_low wpli by hemisphere for SNr-STN. Select Band=Beta_low
+    and Region=SNr-STN in the contact-level source. The Hemi EMM and Tukey tables give the displayed LAH
+    - MAH contrast. Omnibus remains null because model_omnibus.csv contains Region and coordinate terms
+    but no Hemi term. This source was previously assigned to YAML e and is now mapped to the visible panel
+    f.'
+- panel_id: g
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_stn_local_lah_vs_mah_signed_logp_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_params_lah_vs_mah_signed_logp_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_lah_vs_mah_signed_logp_heatmap_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_15.yaml panel h. LAH-versus-MAH signed log-P heatmaps
+    for resting-state STN local and aperiodic power parameter features; positive values indicate LAH >
+    MAH.'
+- panel_id: h
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_mni_xyz_standardized_slope_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_stn_mni_xyz_standardized_slope_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_mni_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_15.yaml panel a; Supplementary_Figure_15.yaml panel
+    b. Resting-state SNr MNI xyz standardized-slope heatmap. Resting-state STN MNI xyz standardized-slope
+    heatmap.'
+- panel_id: i
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_params_mni_standardized_slope_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_stn_params_mni_standardized_slope_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_mni_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel h. Resting-state SNr and STN MNI standardized-slope
+    heatmaps for aperiodic power parameter feature correlations.'

@@ -1,0 +1,28 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/loading_factors.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/3m/result.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_02.yml panel a. Loading factors from the clinical-scale
+    PCA used for the 3-month follow-up analysis.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/loading_factors.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/gait/result.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_02.yml panel b. Loading factors from the gait-parameter
+    PCA.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/loading_factors.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/clinic/pca/balance/result.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_02.yml panel c. Loading factors from the balance-parameter
+    PCA.'

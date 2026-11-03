@@ -1,0 +1,116 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/tfr/raw/raw-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/tfr/raw/raw-mean-spectral/raw-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel a. Resting-state total power spectra
+    by region.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/tfr/period/period-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/tfr/period/period-mean-spectral/period-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel b. Resting-state periodic power spectra
+    by region.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/tfr/aperiod/aperiod-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/tfr/aperiod/aperiod-mean-spectral/aperiod-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel c. Resting-state aperiodic spectral
+    component by region.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/burst/hilbert.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel f. Schematic of the Hilbert-transform-based
+    burst detection algorithm; no standalone source data were provided.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/summary/Band-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-occupation-scalar/burst-occupation-scalar_subject_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel g. Resting-state burst occupation summary
+    by frequency band and region.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/summary/Band-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-rate-scalar/burst-rate-scalar_subject_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel h. Resting-state burst rate summary
+    by frequency band and region.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-duration-scalar/summary/Band-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-duration-scalar/burst-duration-scalar_subject_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel i. Resting-state burst duration summary
+    by frequency band and region.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-mean-scalar/summary/Band-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/burst/burst/burst-mean-scalar/burst-mean-scalar_subject_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel j. Resting-state burst mean-amplitude
+    summary by frequency band and region.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/coh/coh-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/coh/coh-mean-spectral/coh-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel k. Resting-state coherence spectra
+    for SNr-STN.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/wpli/wpli-mean-spectral/wpli-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel l. Resting-state wPLI spectra for SNr-STN.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/ciplv/ciplv-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/conn/ciplv/ciplv-mean-spectral/ciplv-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel m. Resting-state ciPLV spectra for
+    SNr-STN.'
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/gc/delta_net_gc/delta_net_gc-mean-spectral/All/Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/gc/delta_net_gc/delta_net_gc-mean-spectral/delta_net_gc-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel n. Resting-state TRGC spectra for SNr→STN.'
+- panel_id: m
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/psi/psi/psi-mean-scalar/summary/Band-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/psi/psi/psi-mean-scalar/psi-mean-scalar_subject_raw.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_11.yaml panel o. Resting-state PSI summary by frequency
+    band for SNr→STN.'

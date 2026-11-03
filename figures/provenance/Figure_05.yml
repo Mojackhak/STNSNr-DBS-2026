@@ -1,0 +1,126 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/corr/gait_standardized_slope/gait_feature_walk_speed_frequency_summary_gradient_standardized_slope_heatmap
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/corr/gait_standardized_slope/gait_feature_gradient_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added walk-speed association heatmap. Use feature=Walk_speed and both between and within gradients
+    in data_source. The listed composite PDF includes SNr and STN local metrics, SNr-STN connectivity
+    metrics, and the lower Exponent/Offset matrices. Colors show standardized slopes of walking-minus-standing
+    LFP changes per z-scored walk speed. The table retains source_slope_csv and source_sd_csv for each
+    cell.
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/corr/gait_standardized_slope/gait_feature_stride_length_frequency_summary_gradient_standardized_slope_heatmap
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_feature/corr/gait_standardized_slope/gait_feature_gradient_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added stride-length association heatmap. Use feature=Stride_length and both between and within
+    gradients in data_source. The listed composite PDF includes SNr and STN local metrics, SNr-STN connectivity
+    metrics, and the lower Exponent/Offset matrices. Colors show standardized slopes of walking-minus-standing
+    LFP changes per z-scored stride length. The table retains source_slope_csv and source_sd_csv for each
+    cell.
+- panel_id: c
+  image_source: null
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Schematic definition of the gait cycle; image and data sources were intentionally left blank.
+    Panel lineage: 20260909/Figure_05.yml panel a.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/tfr/raw/raw-transformed-raw/All/Region-noDelta_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/tfr/raw/raw-transformed-raw/raw-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Event-aligned total power time-frequency representation by region. Panel lineage: 20260909/Figure_05.yml
+    panel b.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Theta/rlmer_model/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/raw-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    timepoint_deviation: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Theta/rlmer_model/timepoint_deviation.csv
+    timepoint_interval_candidates: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Theta/rlmer_model/timepoint_interval_candidates.csv
+    timepoint_intervals: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Theta/rlmer_model/timepoint_intervals.csv
+  notes: 'Gait-cycle theta total power mean trace by region. Panel lineage: 20260909/Figure_05.yml panel
+    c.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Beta_low/rlmer_model/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/raw-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    timepoint_deviation: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Beta_low/rlmer_model/timepoint_deviation.csv
+    timepoint_interval_candidates: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Beta_low/rlmer_model/timepoint_interval_candidates.csv
+    timepoint_intervals: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/raw/raw-mean-trace/Beta_low/rlmer_model/timepoint_intervals.csv
+  notes: 'Gait-cycle low-beta total power mean trace by region. Panel lineage: 20260909/Figure_05.yml
+    panel d.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/tfr/period/period-transformed-raw/All/Region-noDelta_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/tfr/period/period-transformed-raw/period-transformed-raw_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Event-aligned periodic power time-frequency representation by region. Panel lineage: 20260909/Figure_05.yml
+    panel e.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Theta/rlmer_model/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/period-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    timepoint_deviation: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Theta/rlmer_model/timepoint_deviation.csv
+    timepoint_interval_candidates: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Theta/rlmer_model/timepoint_interval_candidates.csv
+    timepoint_intervals: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Theta/rlmer_model/timepoint_intervals.csv
+  notes: 'Gait-cycle-aligned theta periodic power mean trace by region. Panel lineage: 20260909/Figure_05.yml
+    panel f.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Beta_low/rlmer_model/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/period-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    timepoint_deviation: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Beta_low/rlmer_model/timepoint_deviation.csv
+    timepoint_interval_candidates: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Beta_low/rlmer_model/timepoint_interval_candidates.csv
+    timepoint_intervals: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/tfr/period/period-mean-trace/Beta_low/rlmer_model/timepoint_intervals.csv
+  notes: 'Gait-cycle-aligned low-beta periodic power mean trace by region. Panel lineage: 20260909/Figure_05.yml
+    panel g.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/coh/coh-mean-trace/Beta_low/rlmer_model/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/coh/coh-mean-trace/coh-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    timepoint_deviation: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/coh/coh-mean-trace/Beta_low/rlmer_model/timepoint_deviation.csv
+    timepoint_interval_candidates: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/coh/coh-mean-trace/Beta_low/rlmer_model/timepoint_interval_candidates.csv
+    timepoint_intervals: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/coh/coh-mean-trace/Beta_low/rlmer_model/timepoint_intervals.csv
+  notes: 'Gait-cycle-aligned low-beta coherence mean trace for SNr-STN. Panel lineage: 20260909/Figure_05.yml
+    panel h.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/wpli/wpli-mean-trace/Beta_low/rlmer_model/Region_norm.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/wpli/wpli-mean-trace/wpli-mean-trace_region_normalized.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+    timepoint_deviation: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/wpli/wpli-mean-trace/Beta_low/rlmer_model/timepoint_deviation.csv
+    timepoint_interval_candidates: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/wpli/wpli-mean-trace/Beta_low/rlmer_model/timepoint_interval_candidates.csv
+    timepoint_intervals: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_cycle/conn/wpli/wpli-mean-trace/Beta_low/rlmer_model/timepoint_intervals.csv
+  notes: 'Gait-cycle-aligned low-beta wPLI mean trace for SNr-STN. Panel lineage: 20260909/Figure_05.yml
+    panel i.'

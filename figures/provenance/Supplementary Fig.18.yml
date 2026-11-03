@@ -1,0 +1,164 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/corr/phase_to_vs_hs/gait_event_phase_summary_to_vs_hs_signed_logp_heatmap
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/corr/phase_to_vs_hs/gait_event_phase_to_vs_hs_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added TO-versus-HS composite heatmap. The listed PDF includes the Ipsi and Contra SNr/STN local
+    and connectivity matrices plus the lower Exponent/Offset matrices. Positive values indicate TO > HS.
+    Use signed_logp_display and the corresponding p_tukey/source_csv entries.
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/corr/phase_swing_vs_stance/gait_phase_phase_summary_swing_vs_stance_signed_logp_heatmap
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/corr/phase_swing_vs_stance/gait_phase_phase_swing_vs_stance_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: Added Swing-versus-Stance composite heatmap. The listed PDF includes the Ipsi and Contra SNr/STN
+    local and connectivity matrices plus the lower Exponent/Offset matrices. Positive values indicate
+    Swing > Stance. Use signed_logp_display and the corresponding p_tukey/source_csv entries.
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-Lat-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Ipsi facet(s) of the PDF. Select Region=STN. Statistics:
+    select Lat=Ipsi in the same-directory Phase-Region-Lat EMM and Tukey tables for HS versus TO. Select
+    Region=STN. The displayed significance markers match p_tukey. Omnibus remains null: model_omnibus.csv
+    contains no Phase term and its correspondence is unconfirmed. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel a.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/psi/psi/psi-mean-trace/Alpha/Region_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-supplied source visually matched to the full gait-cycle trace panel. No statistics CSV
+    exports were found in the source PDF directory; statistics sources remain null. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel b.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/psi/psi/psi-mean-scalar/Alpha/rlmer_model/Phase-Lat-Region-SNr-to-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/psi/psi/psi-mean-scalar/Alpha/rlmer_model/Phase-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/psi/psi/psi-mean-scalar/Alpha/rlmer_model/Phase-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Ipsi facet(s) of the PDF. Statistics: select Lat=Ipsi
+    in the same-directory Phase-Lat EMM and Tukey tables for HS versus TO. The displayed significance
+    markers match p_tukey. Omnibus remains null: model_omnibus.csv contains no Phase term and its correspondence
+    is unconfirmed. Panel lineage: 20260909/Supplementary Fig.18.yml panel c.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/conn/ciplv/ciplv-mean-trace/Alpha/Region_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-supplied source visually matched to the full gait-cycle trace panel. No statistics CSV
+    exports were found in the source PDF directory; statistics sources remain null. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel d.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/conn/ciplv/ciplv-mean-scalar/Alpha/rlmer_model/Phase-Lat_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/conn/ciplv/ciplv-mean-scalar/Alpha/rlmer_model/Phase-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_event/conn/ciplv/ciplv-mean-scalar/Alpha/rlmer_model/Phase-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Contra facet(s) of the PDF. Statistics: select Lat=Contra
+    in the same-directory Phase-Lat EMM and Tukey tables for HS versus TO. The displayed significance
+    markers match p_tukey. Omnibus remains null: model_omnibus.csv contains no Phase term and its correspondence
+    is unconfirmed. Panel lineage: 20260909/Supplementary Fig.18.yml panel e.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-Lat_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/burst/burst/burst-occupation-scalar/Theta/rlmer_model/Phase-Region-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Ipsi facet(s) of the PDF. Include both Region=SNr and
+    Region=STN. Statistics: select Lat=Ipsi in the same-directory Phase-Region-Lat EMM and Tukey tables
+    for Stance versus Swing. Include both Region=SNr and Region=STN. The displayed significance markers
+    match p_tukey. Omnibus remains null: model_omnibus.csv contains no Phase term and its correspondence
+    is unconfirmed. Panel lineage: 20260909/Supplementary Fig.18.yml panel f.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Phase-Region-Lat-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Phase-Region-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/burst/burst/burst-occupation-scalar/Gamma/rlmer_model/Phase-Region-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Contra facet(s) of the PDF. Select Region=STN. Statistics:
+    select Lat=Contra in the same-directory Phase-Region-Lat EMM and Tukey tables for Stance versus Swing.
+    Select Region=STN. The displayed significance markers match p_tukey. Omnibus remains null: model_omnibus.csv
+    contains no Phase term and its correspondence is unconfirmed. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel g.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-trace/Beta_high/Region_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-supplied source visually matched to the full gait-cycle trace panel. No statistics CSV
+    exports were found in the source PDF directory; statistics sources remain null. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel h.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-scalar/Beta_high/rlmer_model/Phase-Lat-Region-SNr-to-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-scalar/Beta_high/rlmer_model/Phase-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-scalar/Beta_high/rlmer_model/Phase-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Ipsi facet(s) of the PDF. Statistics: select Lat=Ipsi
+    in the same-directory Phase-Lat EMM and Tukey tables for Stance versus Swing. The displayed significance
+    markers match p_tukey. Omnibus remains null: model_omnibus.csv contains no Phase term and its correspondence
+    is unconfirmed. Panel lineage: 20260909/Supplementary Fig.18.yml panel i.'
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-trace/Gamma/Region_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-supplied source visually matched to the full gait-cycle trace panel. No statistics CSV
+    exports were found in the source PDF directory; statistics sources remain null. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel j.'
+- panel_id: m
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-scalar/Gamma/rlmer_model/Phase-Lat-Region-SNr-to-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-scalar/Gamma/rlmer_model/Phase-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/psi/psi/psi-mean-scalar/Gamma/rlmer_model/Phase-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Ipsi facet(s) of the PDF. Statistics: select Lat=Ipsi
+    in the same-directory Phase-Lat EMM and Tukey tables for Stance versus Swing. The displayed significance
+    markers match p_tukey. Omnibus remains null: model_omnibus.csv contains no Phase term and its correspondence
+    is unconfirmed. Panel lineage: 20260909/Supplementary Fig.18.yml panel k.'
+- panel_id: n
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/conn/wpli/wpli-mean-trace/Alpha/Region_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'User-supplied source visually matched to the full gait-cycle trace panel. No statistics CSV
+    exports were found in the source PDF directory; statistics sources remain null. Panel lineage: 20260909/Supplementary
+    Fig.18.yml panel l.'
+- panel_id: o
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/conn/wpli/wpli-mean-scalar/Alpha/rlmer_model/Phase-Lat-Region-SNr-STN_raw.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/conn/wpli/wpli-mean-scalar/Alpha/rlmer_model/Phase-Lat_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/gait_phase/conn/wpli/wpli-mean-scalar/Alpha/rlmer_model/Phase-Lat_tukey.csv
+  notes: 'Visually confirmed source: use only the Contra facet(s) of the PDF. Statistics: select Lat=Contra
+    in the same-directory Phase-Lat EMM and Tukey tables for Stance versus Swing. The displayed significance
+    markers match p_tukey. Omnibus remains null: model_omnibus.csv contains no Phase term and its correspondence
+    is unconfirmed. Panel lineage: 20260909/Supplementary Fig.18.yml panel m.'

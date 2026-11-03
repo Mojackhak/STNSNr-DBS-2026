@@ -1,0 +1,83 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/flowchart/fig2a_flowchart.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel a. Final enrollment and sorting flowchart for MER
+    patients.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/mer/SNr_mer.png
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel b. Spatial localization of 149 GABAergic neurons in
+    the SNr.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/corr/mer_spike_scale_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/corr/mer_spike_scale_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel c. Correlation heatmap between GABAergic neuron features
+    and preoperative clinical measures.'
+- panel_id: d
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/SNr/NA/LvR_SNr_NA_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/SNr/NA/LvR_SNr_NA_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/topomap/cover/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/topomap/cover/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/SNr/NA/LvR_SNr_NA.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/SNr/NA/LvR_SNr_NA.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/topomap/cover/SNr/spike_unit_cover.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/topomap/cover/SNr/spike_unit_cover.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel d. SNr topographic surface maps of LvR from MER spike
+    analyses. Gray coverage insets are cropped from cover1.png and cover2.png in the listed topomap/cover
+    directory; their opaque pixels match the embedded AI images exactly. Image-source order is surface1,
+    surface2, cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/lmer_model/zMX_fit.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/lmer_model/zMX_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/lmer_model/zMX_omnibus.csv
+    emm: null
+    tukey: null
+    slope: ${MYLFP_PROJECT_ROOT}/summary/stats/mer/spike/LvR/lmer_model/zMX_slope.csv
+  notes: 'Reference provenance: Figure_02.yml panel e. Coordinate-wise fit relating MNI-x to MER LvR.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/flowchart/fig2f_flowchart.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel f. Enrollment flowchart for patients with sensing-enabled
+    LFP recordings; data source was intentionally left blank.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_local_lah_vs_mah_signed_logp_heatmap.png
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_lah_vs_mah_signed_logp_heatmap_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel j. SNr local LAH-versus-MAH signed log-P heatmap for
+    resting-state LFP correlations; positive values indicate LAH > MAH.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_connectivity_lah_vs_mah_signed_logp_heatmap.png
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_lah_vs_mah_signed_logp_heatmap_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_02.yml panel k. Connectivity LAH-versus-MAH signed log-P heatmap
+    for resting-state LFP correlations; positive values indicate LAH > MAH.'

@@ -1,0 +1,14 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: unlettered_heatmap
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/mni_standardized_slope/walk_snr_mni_xyz_standardized_slope_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/mni_standardized_slope/walk_stn_mni_xyz_standardized_slope_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/walk/corr/mni_standardized_slope/walk_mni_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_22.yaml panel a; Supplementary_Figure_22.yaml panel
+    b. SNr MNI xyz standardized-slope layered heatmap for locomotor-task electrophysiological features.
+    STN MNI xyz standardized-slope layered heatmap for locomotor-task electrophysiological features. No
+    panel letter is visible in the current AI; panel_id identifies its position.'

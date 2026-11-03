@@ -1,0 +1,28 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_local_delta_efficacy_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_snr_local_delta_efficacy_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_16.yaml panel a. Correlation heatmap between resting-state
+    SNr local LFP features and added STN+SNr benefit relative to STN stimulation alone.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_stn_local_efficacy_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_stn_local_efficacy_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_16.yaml panel b. Correlation heatmap between resting-state
+    STN local LFP features and clinical efficacy from preoperative baseline.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_connectivity_delta_efficacy_corr_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/rest/corr/rest_connectivity_delta_efficacy_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_16.yaml panel c. Correlation heatmap between resting-state
+    connectivity features and added STN+SNr benefit relative to STN stimulation alone.'

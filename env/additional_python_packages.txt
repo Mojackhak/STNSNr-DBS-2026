@@ -1,0 +1,14 @@
+# Dependencies used by the selected recipes but absent from the inherited LFP.yml.
+# These are observations of the extraction environment, not historical paper pins.
+# cmcrameri's local metadata reports 0.0.0; do not use that value as a PyPI pin.
+cmcrameri
+openpyxl==3.1.5
+xlsxwriter==3.2.9
+Pillow==11.0.0
+pyreadr==0.5.3
+librosa==0.10.2.post1
+plotly==6.0.1
+seaborn==0.13.2
+pingouin==0.5.5
+scikit-posthocs==0.12.0
+probeinterface==0.3.1

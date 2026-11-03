@@ -1,0 +1,82 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/eg/flowchart/3a.ai
+  data_source: null
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_03.yml panel a. Schematic diagram of the L-Dopa medication condition.'
+- panel_id: b
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_stn_local_medon_vs_medoff_signed_logp_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_snr_local_medon_vs_medoff_signed_logp_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_params_medon_vs_medoff_signed_logp_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_medon_vs_medoff_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_03.yml panel g. STN local, SNr local, and aperiodic power parameter
+    feature signed log-P heatmaps for Med-on versus Med-off effects; positive values indicate higher values
+    in Med-on.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_connectivity_medon_vs_medoff_signed_logp_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_medon_vs_medoff_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_17.yaml panel c. Connectivity signed log-P heatmap
+    for Med-on versus Med-off effects; positive values indicate higher values in Med-on.'
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-spectral/All/Med-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-spectral/period-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_03.yml panel b. Periodic power spectra by medication state and
+    region.'
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_low/rlmer_model/Med-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/period-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_low/rlmer_model/Med-Region_emm.csv
+    tukey: ${MYLFP_PROJECT_ROOT}/summary/stats/med/tfr/period/period-mean-scalar/Beta_low/rlmer_model/Med-Region_tukey.csv
+  notes: 'Reference provenance: Figure_03.yml panel c. Low-beta periodic power by medication state and
+    region.'
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/wpli/wpli-mean-spectral/All/Med-Region_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/wpli/wpli-mean-spectral/wpli-mean-spectral_region_raw.pkl
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_03.yml panel e. wPLI spectra by medication state for SNr-STN.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/Med-Region-SNr-STN_raw.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_raw.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/med/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Figure_03.yml panel f. Low-beta wPLI by medication state for SNr-STN.'
+- panel_id: h
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_stn_local_scale_combined_tremor_delta_percent_corr_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_snr_local_scale_combined_tremor_delta_percent_corr_heatmap.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_stn_local_scale_combined_tremor_delta_percent_corr.xlsx
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/med/corr/med_snr_local_scale_combined_tremor_delta_percent_corr.xlsx
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Composite combined-tremor clinical correlation heatmap: STN local effects above SNr local effects.
+    The STN component matches 20260909/Supplementary Fig.11 panel i; the SNr component matches 20260909/Figure_03
+    panel h. Image-source and workbook order is STN, SNr. Both components use local Med-on-minus-Med-off
+    effects and clinical improvement relative to Med-off. The Tremor row uses 100 * (combined OFF tremor
+    - combined ON tremor) / combined OFF tremor; Rest and Action tremor scores are summed before calculating
+    percentage improvement. Statistical results are in the listed correlation workbooks.'

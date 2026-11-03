@@ -1,0 +1,29 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/lat_ipsi_vs_contra/pain_lat_snr_local_ipsi_vs_contra_signed_logp_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/lat_ipsi_vs_contra/pain_lat_stn_local_ipsi_vs_contra_signed_logp_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/lat_ipsi_vs_contra/pain_lat_params_by_region_ipsi_vs_contra_signed_logp_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/lat_ipsi_vs_contra/pain_lat_ipsi_vs_contra_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Replacement panel: BL-normalized pain Ipsi-versus-Contra local metrics. Source order is SNr
+    local, STN local, then Exponent/Offset by region. Retain only ONS, SUS and OFS from the two local-metric
+    PDFs; their PST frequency-band blocks are omitted. The lower Exponent/Offset matrices retain all four
+    columns ONS, SUS, OFS and PST. Positive signed -log10(p_tukey) values indicate Ipsi > Contra. Use
+    the corresponding group, phase, region and parameter rows in data_source, which records per-cell source_csv
+    provenance.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/lat_ipsi_vs_contra/pain_lat_connectivity_ipsi_vs_contra_signed_logp_layered_heatmap
+    copy.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/lat_ipsi_vs_contra/pain_lat_ipsi_vs_contra_signed_logp_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Replacement panel: BL-normalized pain Ipsi-versus-Contra connectivity. Retain only ONS, SUS
+    and OFS from the listed PDF; omit its PST block. Rows show coherence, wPLI, ciPLV, TRGC and PSI. Positive
+    signed -log10(p_tukey) values indicate Ipsi > Contra. Use group=connectivity and the displayed phases
+    in data_source.'

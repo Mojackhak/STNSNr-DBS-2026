@@ -1,0 +1,186 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_34.yaml panel b. SNr surface maps of pain delta total
+    power values during ONS. Gray coverage insets are cropped from cover1.png and cover2.png in the listed
+    topomap/cover directory; their opaque pixels match the embedded AI images exactly. Image-source order
+    is surface1, surface2, cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: b
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Delta/SNr/ONS/Delta_SNr_ONS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Delta/SNr/ONS/Delta_SNr_ONS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Delta/SNr/ONS/Delta_SNr_ONS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Delta/SNr/ONS/Delta_SNr_ONS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Confirmed by matching the top strip, colorbar and both surface color patterns: SNr, ONS, delta
+    burst occupation. Composite image-source order: surface1 (upper view), surface2 (lower view). Gray
+    coverage insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory;
+    their opaque pixels match the embedded AI images exactly. Image-source order is surface1, surface2,
+    cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: c
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/double/Pain/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/double/Pain/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/ONS/Delta_SNr_ONS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/double/Pain/SNr/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/double/Pain/SNr/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_34.yaml panel e. SNr surface maps of pain delta coherence
+    for SNr-STN during ONS. Gray coverage insets are cropped from cover1.png and cover2.png in the listed
+    topomap/cover directory; their opaque pixels match the embedded AI images exactly. Image-source order
+    is surface1, surface2, cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source.
+    This panel uses the double/Pain/SNr coverage exports; the other SNr panels use single/Pain/SNr as
+    actually embedded.'
+- panel_id: d
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/SUS/Delta_SNr_SUS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/SUS/Delta_SNr_SUS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/SUS/Delta_SNr_SUS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/SNr/SUS/Delta_SNr_SUS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Confirmed by matching the top strip, colorbar and both surface color patterns: SNr, SUS, delta
+    coherence. Composite image-source order: surface1 (upper view), surface2 (lower view). Gray coverage
+    insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory; their opaque
+    pixels match the embedded AI images exactly. Image-source order is surface1, surface2, cover1, cover2.
+    Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: e
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/STN/SUS/Delta_STN_SUS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/STN/SUS/Delta_STN_SUS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/STN/SUS/Delta_STN_SUS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Delta/STN/SUS/Delta_STN_SUS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Confirmed by matching the top strip, colorbar and both surface color patterns: STN, SUS, delta
+    coherence. Composite image-source order: surface1 (upper view), surface2 (lower view). Gray coverage
+    insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory; their opaque
+    pixels match the embedded AI images exactly. Image-source order is surface1, surface2, cover1, cover2.
+    Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: f
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Delta/SNr/SUS/Delta_SNr_SUS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Delta/SNr/SUS/Delta_SNr_SUS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Delta/SNr/SUS/Delta_SNr_SUS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Delta/SNr/SUS/Delta_SNr_SUS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Confirmed by matching the top strip, colorbar and both surface color patterns: SNr, SUS, log
+    delta burst duration. Composite image-source order: surface1 (upper view), surface2 (lower view).
+    Gray coverage insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory;
+    their opaque pixels match the embedded AI images exactly. Image-source order is surface1, surface2,
+    cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source. In figure0930
+    the overlapping labels are removed; the retained metric, phase and surface patterns match the listed
+    sources.'
+- panel_id: g
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Gamma/SNr/OFS/Gamma_SNr_OFS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Gamma/SNr/OFS/Gamma_SNr_OFS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Gamma/SNr/OFS/Gamma_SNr_OFS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/period/period-mean-scalar/Gamma/SNr/OFS/Gamma_SNr_OFS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/SNr/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Confirmed by matching the top strip, colorbar and both surface color patterns: SNr, OFS, gamma
+    periodic power. Composite image-source order: surface1 (upper view), surface2 (lower view). Gray coverage
+    insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory; their opaque
+    pixels match the embedded AI images exactly. Image-source order is surface1, surface2, cover1, cover2.
+    Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: h
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/tfr/raw/raw-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Current AI visual match: STN surface maps of the pain-task change in Gamma total power during
+    OFS. The inherited Delta assignment was replaced with Gamma for both surface views and their NIfTI/pickle
+    data. Source order: upper surface view, lower surface view, followed by the two coverage insets. Gray
+    coverage insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory;
+    their opaque pixels match the embedded AI images exactly. Image-source order is surface1, surface2,
+    cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source.'
+- panel_id: i
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS_surface1.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS_surface2.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/cover1.png
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/cover2.png
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Gamma/STN/OFS/Gamma_STN_OFS.pkl
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/contact_locs.nii.gz
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/topomap/cover/single/Pain/STN/contact_locs.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Confirmed by matching the top strip, colorbar and both surface color patterns: STN, OFS, log
+    gamma burst amplitude. Composite image-source order: surface1 (upper view), surface2 (lower view).
+    Gray coverage insets are cropped from cover1.png and cover2.png in the listed topomap/cover directory;
+    their opaque pixels match the embedded AI images exactly. Image-source order is surface1, surface2,
+    cover1, cover2. Coverage NIfTI and coordinate CSV files are included in data_source. In figure0930
+    the overlapping labels are removed; the retained metric, phase and surface patterns match the listed
+    sources.'

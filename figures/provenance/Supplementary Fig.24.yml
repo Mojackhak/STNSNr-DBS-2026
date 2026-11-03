@@ -1,0 +1,188 @@
+# Portable copy of figure0930 provenance; see docs/extraction_notes.md.
+- panel_id: a
+  image_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/logforce_standardized_slope/pain_logforce_summary_freq_by_param_standardized_slope_layered_heatmap.pdf
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/logforce_standardized_slope/pain_logforce_params_phase_by_region_standardized_slope_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/logforce_standardized_slope/pain_logforce_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel a. Pain log-force standardized-slope
+    heatmap panel assembled from frequency-band and aperiodic power parameter phase-by-region components.
+    Local and aperiodic portions of the old composite; crop the frequency-summary PDF to local rows.'
+- panel_id: b
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/logforce_standardized_slope/pain_logforce_summary_freq_by_param_standardized_slope_layered_heatmap.pdf
+  data_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/corr/logforce_standardized_slope/pain_logforce_standardized_slope_values.csv
+  statistics_sources:
+    omnibus: null
+    emm: null
+    tukey: null
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel a. Pain log-force standardized-slope
+    heatmap panel assembled from frequency-band and aperiodic power parameter phase-by-region components.
+    Connectivity portion of the old frequency-summary PDF; local rows are outside this current panel.'
+- panel_id: c
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region-STN-ONS_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/model_omnibus_norm.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: Source matched by top strip Phase=ONS, right strip STN, y-axis metric and displayed beta/q. Use
+    Phase=ONS in the LogForce-Phase-Region regression exports. Also select Region=STN. Top-level omnibus
+    references the normalized LogForce model (model_omnibus_norm.csv); feature_models contains the corresponding
+    curve, conditional omnibus and slope exports.
+- panel_id: d
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region-STN-SUS_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/model_omnibus_norm.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-duration-scalar/Beta_low/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: Source matched by top strip Phase=SUS, right strip STN, y-axis metric and displayed beta/q. Use
+    Phase=SUS in the LogForce-Phase-Region regression exports. Also select Region=STN. Top-level omnibus
+    references the normalized LogForce model (model_omnibus_norm.csv); feature_models contains the corresponding
+    curve, conditional omnibus and slope exports.
+- panel_id: e
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-rate-scalar/Theta/rlmer_model/LogForce-Phase-Region-SNr-OFS_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-rate-scalar/Theta/rlmer_model/model_omnibus_norm.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-rate-scalar/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-rate-scalar/Theta/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-rate-scalar/Theta/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: Source matched by top strip Phase=OFS, right strip SNr, y-axis metric and displayed beta/q. Use
+    Phase=OFS in the LogForce-Phase-Region regression exports. Also select Region=SNr. Top-level omnibus
+    references the normalized LogForce model (model_omnibus_norm.csv); feature_models contains the corresponding
+    curve, conditional omnibus and slope exports.
+- panel_id: f
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Theta/rlmer_model/LogForce-Phase-Region-SNr-OFS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/burst-occupation-scalar_contact_normalized.csv
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Theta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Theta/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-occupation-scalar/Theta/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel f. Pain theta burst-occupation association
+    with log force, phase and region, shown for SNr in OFS.'
+- panel_id: g
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Theta/rlmer_model/LogForce-Phase-Region-STN-OFS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/burst-mean-scalar_contact_normalized.csv
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Theta/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase-Region
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Theta/rlmer_model/LogForce-Phase-Region_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Theta/rlmer_model/LogForce-Phase-Region_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/burst/burst/burst-mean-scalar/Theta/rlmer_model/LogForce-Phase-Region_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel g. Pain theta burst-mean association
+    with log force, phase and region, shown for STN in OFS.'
+- panel_id: h
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/LogForce-Phase-Region-SNr-STN-OFS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_normalized.csv
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel c. Pain low-beta wPLI mean association
+    with log force and phase for SNr-STN, shown for OFS; no exact LogForce-Phase-Region CSV export was
+    found.'
+- panel_id: i
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/LogForce-Phase-Region-OFS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/coh-mean-scalar_contact_normalized.csv
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Beta_low/rlmer_model/LogForce-Phase_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel b. Pain low-beta coherence mean association
+    with log force and phase for SNr-STN, shown for OFS; no exact LogForce-Phase-Region CSV export was
+    found.'
+- panel_id: j
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_high/rlmer_model/LogForce-Phase-Region-OFS_norm.pdf
+  data_source:
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/wpli-mean-scalar_contact_normalized.csv
+  - ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_high/rlmer_model/LogForce-Phase_curve.csv
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_high/rlmer_model/model_omnibus.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_high/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_high/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/wpli/wpli-mean-scalar/Beta_high/rlmer_model/LogForce-Phase_slope.csv
+  notes: 'Reference provenance: Supplementary_Figure_32.yaml panel e. Pain high-beta wPLI mean association
+    with log force and phase for SNr-STN, shown for OFS; no exact LogForce-Phase-Region CSV export was
+    found.'
+- panel_id: k
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Gamma/rlmer_model/LogForce-Phase-Region-SNr-STN-OFS_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Gamma/rlmer_model/model_omnibus_norm.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Gamma/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Gamma/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/conn/coh/coh-mean-scalar/Gamma/rlmer_model/LogForce-Phase_slope.csv
+  notes: Source matched by top strip Phase=OFS, right strip SNr-STN, y-axis metric and displayed beta/q.
+    Use Phase=OFS in the LogForce-Phase regression exports. The connectivity regression tables have no
+    Region column; their slope and q match the displayed connection. Top-level omnibus references the
+    normalized LogForce model (model_omnibus_norm.csv); feature_models contains the corresponding curve,
+    conditional omnibus and slope exports.
+- panel_id: l
+  image_source: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/psi/psi/psi-mean-scalar/Delta/rlmer_model/LogForce-Phase-Region-SNr-to-STN-OFS_norm.pdf
+  data_source: null
+  statistics_sources:
+    omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/psi/psi/psi-mean-scalar/Delta/rlmer_model/model_omnibus_norm.csv
+    emm: null
+    tukey: null
+    feature_models:
+    - feature: LogForce-Phase
+      curve: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/psi/psi/psi-mean-scalar/Delta/rlmer_model/LogForce-Phase_curve.csv
+      omnibus: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/psi/psi/psi-mean-scalar/Delta/rlmer_model/LogForce-Phase_omnibus.csv
+      slope: ${MYLFP_PROJECT_ROOT}/summary/stats/pain/psi/psi/psi-mean-scalar/Delta/rlmer_model/LogForce-Phase_slope.csv
+  notes: Source matched by top strip Phase=OFS, right strip SNr-to-STN, y-axis metric and displayed beta/q.
+    Use Phase=OFS in the LogForce-Phase regression exports. The connectivity regression tables have no
+    Region column; their slope and q match the displayed connection. Top-level omnibus references the
+    normalized LogForce model (model_omnibus_norm.csv); feature_models contains the corresponding curve,
+    conditional omnibus and slope exports.
